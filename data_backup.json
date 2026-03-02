@@ -1,0 +1,3978 @@
+[
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$AmZXXB32pvmfd3UrVIqXWR$4LNQBAFZuvUJ5bSMkD961Bu2GMIE9Yw2IkA4bPf3WLw=",
+    "last_login": "2026-02-22T10:46:10.798Z",
+    "is_superuser": false,
+    "username": "john@gmail.com",
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "john@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-11T21:21:49.265Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$rTogi2bxHUWqmzW7do0XX3$pqUHmMZKIG4c6auHsSV8gKaGnvGPd/MJwZpQz+5s+Qw=",
+    "last_login": "2025-06-01T10:04:24.700Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-05-11T21:58:12.202Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$4dixVn1Ro3qrccWheykfTG$wmjS2GA+lWzC6N+Dj3wKDiXG5OSqtOPvsB7QZKwGfZM=",
+    "last_login": "2025-05-11T22:11:25.573Z",
+    "is_superuser": false,
+    "username": "john1@gmail.com",
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "john1@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-11T22:11:24.828Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$gHsEbohKEmDdTt8ZB1OdbP$5w+9qPzZpokia/bLLoT8Vo0/cLBpePiBSe0wIT3T/ho=",
+    "last_login": "2025-05-26T16:48:39.504Z",
+    "is_superuser": false,
+    "username": "lisa@gmail.com",
+    "first_name": "Lisa",
+    "last_name": "Smith",
+    "email": "lisa@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-14T11:31:11.772Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$yMXh6MpoAK6SWntmisBoOP$kgZVbACJ7Nt0JOHJozlBEnYAUZ1XGFoycJ7m/QCPilM=",
+    "last_login": "2026-02-22T10:49:24.461Z",
+    "is_superuser": false,
+    "username": "test-user@easy-store.com",
+    "first_name": "Test",
+    "last_name": "User",
+    "email": "test-user@easy-store.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-26T12:01:05.566Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$J4JXaCeanZCJiACY5quDEG$gVBKQmTl+cAb+OrMWvawBMKHG7wOhvKPUVGnhc4nGyY=",
+    "last_login": "2025-05-26T12:51:46.368Z",
+    "is_superuser": false,
+    "username": "john11@gmail.com",
+    "first_name": "John t",
+    "last_name": "Doe t",
+    "email": "john11@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-26T12:51:45.718Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$JG74zBpTcZNGE0qphdlWJP$gvOXriMQP14++B8ixaWXt9koldxFcxgR3aoBlUMn94M=",
+    "last_login": "2025-05-26T13:06:18.552Z",
+    "is_superuser": false,
+    "username": "john111@gmail.com",
+    "first_name": "John11",
+    "last_name": "Doe11",
+    "email": "john111@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-26T13:06:17.881Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1m6wl61olgnh9fnzi85tkooh55m08ham",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEzvHXpvt9AgAGpGpqUdmX8dyXpQrf3nHNfzId9q37vefUzsQtDdvrdYkiP3Aage2i3haelbesc-VD4QTufFsrP6-H-HdTQ67fW0RmDMp0FZGctJlAlOjRFSU0BcDAhkgANRloXjVLRQClaIpFymb0_r9Q2pQ:1uGxFy:OKzcqW2eesEWnfeM6G599A5p3y7Vts6VkLc3fqHPwNc",
+    "expire_date": "2025-06-02T09:58:02.818Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3xxiznygx6fkxcjjldhccy5sq9f1wapr",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEzvHXpvt9AgAGpGpqUdmX8dyXpQrf3nHNfzId9q37vefUzsQtDdvrdYkiP3Aage2i3haelbesc-VD4QTufFsrP6-H-HdTQ67fW0RmDMp0FZGctJlAlOjRFSU0BcDAhkgANRloXjVLRQClaIpFymb0_r9Q2pQ:1uF7HN:Qia-fE2GkDWR2KOBGk8oGV5MtOuLyHUbS86aFdExaEQ",
+    "expire_date": "2025-05-28T08:15:53.753Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7wb7c10nbu6ptwh591hvnd6fsfvshygt",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlla4y8lPWew1us1DiBbipMq4u4QKQW0b2beJiKuS43r4DlOWVyEEaffLSE9ue0gP7Ddu6TelnlKclfkQYe89cyv6-H-HVQc9VsjFM9ZFy7KOKUhOSAsRhVjUZENBMEmU846Wc_eeWT2mUBBcMkHBPH-AP5vOEs:1vtQu3:mVr2GvEDKC3X-KOl1G5XRkvUraFBoPODMiYaWQbU2zw",
+    "expire_date": "2026-03-06T13:50:43.848Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8dp4tzyc7rhgn61e823w0j17vru7vip2",
+  "fields": {
+    "session_data": ".eJxVjDEOwjAMRe-SGUXGxEnDyM4Zqth1SAGlUtNOiLtDpQ6w_vfef5k-rUvp16ZzPw7mbNAcfjdO8tC6geGe6m2yMtVlHtluit1ps9dp0Odld_8OSmrlWwcgHxgENUqnLgTUTOJiJIjIQDknoSP7zMIJcyBPeAJWdoDQKZv3B96xN_4:1uLfYG:Ik9oTDZxo1ZtMYM3whRY088lx9hS0eSq6uvj7Bd34dQ",
+    "expire_date": "2025-06-15T10:04:24.701Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "91gvug1m9se0i53ftw9nk3obni0uq9ly",
+  "fields": {
+    "session_data": "e30:1vtSIA:tYYAlaivQDBOOHTkVbZ1jw5NgyJjE6m-0BsvpN-iThI",
+    "expire_date": "2026-03-06T15:19:42.053Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dom73ls745yvw69os6dvfiz250wvk01a",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEzvHXpvt9AgAGpGpqUdmX8dyXpQrf3nHNfzId9q37vefUzsQtDdvrdYkiP3Aage2i3haelbesc-VD4QTufFsrP6-H-HdTQ67fW0RmDMp0FZGctJlAlOjRFSU0BcDAhkgANRloXjVLRQClaIpFymb0_r9Q2pQ:1uF7Iy:ZUPH_iRfVyi7QfwVJXZkWp98ngv-sHZ42FSvTnblkt4",
+    "expire_date": "2025-05-28T08:17:32.385Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "g6m498yhqa2tdft9rp0g7p98w5qnf65o",
+  "fields": {
+    "session_data": "e30:1vtSGY:PugvKIsp49T6TDohygEfBAiiwkvEzHmDoav2tm0b_BY",
+    "expire_date": "2026-03-06T15:18:02.653Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hd3msq8a5xw33sy6hkqk8sgaqjy3kji7",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEzvHXpvt9AgAGpGpqUdmX8dyXpQrf3nHNfzId9q37vefUzsQtDdvrdYkiP3Aage2i3haelbesc-VD4QTufFsrP6-H-HdTQ67fW0RmDMp0FZGctJlAlOjRFSU0BcDAhkgANRloXjVLRQClaIpFymb0_r9Q2pQ:1uTlKa:v62xXNaBgN_o6d4R2D4y0Nq6JGxEt2wj651Po8JJ95c",
+    "expire_date": "2025-07-07T17:51:44.483Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "i1oo6wl5fid1q9vp51dhqqbtqtv2r63u",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEzvHXpvt9AgAGpGpqUdmX8dyXpQrf3nHNfzId9q37vefUzsQtDdvrdYkiP3Aage2i3haelbesc-VD4QTufFsrP6-H-HdTQ67fW0RmDMp0FZGctJlAlOjRFSU0BcDAhkgANRloXjVLRQClaIpFymb0_r9Q2pQ:1vtPwM:DRZ8m1g7CKJpC8-IBzqvTvj3Ltd8QEarbNqkIXWJ424",
+    "expire_date": "2026-03-06T12:49:02.255Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jsgmme0ht2734y72f8m9igwquq46ohwn",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlla4y8lPWew1us1DiBbipMq4u4QKQW0b2beJiKuS43r4DlOWVyEEaffLSE9ue0gP7Ddu6TelnlKclfkQYe89cyv6-H-HVQc9VsjFM9ZFy7KOKUhOSAsRhVjUZENBMEmU846Wc_eeWT2mUBBcMkHBPH-AP5vOEs:1uJt6N:VpnJQn8jbWgZmOL6an3vZ4OqypiwQiPKisbmzrzJM4E",
+    "expire_date": "2025-06-10T12:08:15.411Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "km4en7i7rxb4f31wsbgt5d7jgwfl2wvd",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlla4y8lPWew1us1DiBbipMq4u4QKQW0b2beJiKuS43r4DlOWVyEEaffLSE9ue0gP7Ddu6TelnlKclfkQYe89cyv6-H-HVQc9VsjFM9ZFy7KOKUhOSAsRhVjUZENBMEmU846Wc_eeWT2mUBBcMkHBPH-AP5vOEs:1uJcK3:6hRco0cNXVm0tkzjWxBCgunVY4Nmv8Hye4aLOhTvzkw",
+    "expire_date": "2025-06-09T18:13:15.117Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kodjpzbxeo9sm38k0yuksrw98nybyts1",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEzvHXpvt9AgAGpGpqUdmX8dyXpQrf3nHNfzId9q37vefUzsQtDdvrdYkiP3Aage2i3haelbesc-VD4QTufFsrP6-H-HdTQ67fW0RmDMp0FZGctJlAlOjRFSU0BcDAhkgANRloXjVLRQClaIpFymb0_r9Q2pQ:1uF7AX:MU-zQFUM7Ixld8NitQJ_iozXddhl5np1Rjy7CNimeaA",
+    "expire_date": "2025-05-28T08:08:49.817Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mb5eclv3rneccy6seletjp9we22tbe95",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEzvHXpvt9AgAGpGpqUdmX8dyXpQrf3nHNfzId9q37vefUzsQtDdvrdYkiP3Aage2i3haelbesc-VD4QTufFsrP6-H-HdTQ67fW0RmDMp0FZGctJlAlOjRFSU0BcDAhkgANRloXjVLRQClaIpFymb0_r9Q2pQ:1uIX44:6bWazPX_Osgb2dspk_aiyOA5PodW9sXGvdv4KNg9dOY",
+    "expire_date": "2025-06-06T18:24:16.884Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "or7xbb222pidnhlaj63f3a2skcqoidmq",
+  "fields": {
+    "session_data": "e30:1vtSKQ:adD5-9cZHkwMQ_2dvZsRfxOwq8HIsrVznCPzanvXZbI",
+    "expire_date": "2026-03-06T15:22:02.928Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qbohwz7322tak7k2qzoxlt6jerfvzqcr",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEzvHXpvt9AgAGpGpqUdmX8dyXpQrf3nHNfzId9q37vefUzsQtDdvrdYkiP3Aage2i3haelbesc-VD4QTufFsrP6-H-HdTQ67fW0RmDMp0FZGctJlAlOjRFSU0BcDAhkgANRloXjVLRQClaIpFymb0_r9Q2pQ:1uImJt:WRp4CqdpFVloBeZr-4lGNH3SgNZpGYdCsOsg654PuBo",
+    "expire_date": "2025-06-07T10:41:37.057Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "s3vyljnzop8wqpeqpd3fuip80zhunr6l",
+  "fields": {
+    "session_data": "e30:1vtSKz:_v6otzgMEiE6hWG6loezvDRlTtT8JHr_mZhxnImNCtk",
+    "expire_date": "2026-03-06T15:22:37.853Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "sb88n342oicgnju2g44xxbygml0hlt3i",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEzvHXpvt9AgAGpGpqUdmX8dyXpQrf3nHNfzId9q37vefUzsQtDdvrdYkiP3Aage2i3haelbesc-VD4QTufFsrP6-H-HdTQ67fW0RmDMp0FZGctJlAlOjRFSU0BcDAhkgANRloXjVLRQClaIpFymb0_r9Q2pQ:1vtQxq:m4h-XJyeN9Pf0ldjWT-xwK141ErTBUTj0yBNt8nNqv8",
+    "expire_date": "2026-03-06T13:54:38.981Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "sm2trw7tkc5qj15ywx6bd55leoznkc7n",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlla4y8lPWew1us1DiBbipMq4u4QKQW0b2beJiKuS43r4DlOWVyEEaffLSE9ue0gP7Ddu6TelnlKclfkQYe89cyv6-H-HVQc9VsjFM9ZFy7KOKUhOSAsRhVjUZENBMEmU846Wc_eeWT2mUBBcMkHBPH-AP5vOEs:1uJvkN:1mdptD1x4xZyOtS-dIJzfhrlHOQpHEXFGWaFqqjaPAI",
+    "expire_date": "2025-06-10T14:57:43.269Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tewq33gbedmm0vt2spqfpsusey89sac8",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEzvHXpvt9AgAGpGpqUdmX8dyXpQrf3nHNfzId9q37vefUzsQtDdvrdYkiP3Aage2i3haelbesc-VD4QTufFsrP6-H-HdTQ67fW0RmDMp0FZGctJlAlOjRFSU0BcDAhkgANRloXjVLRQClaIpFymb0_r9Q2pQ:1uF7Qp:W8pZauVirvE8YsyBmWvMMjFz9MA6cp_7dkv7iLYsWUM",
+    "expire_date": "2025-05-28T08:25:39.730Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "w1v6wwt3qaw5ynoimxx29o5cacwt2sgq",
+  "fields": {
+    "session_data": "e30:1vtSM6:fYKoV6mmO18vFcBZFUOvBHiN-kySXvtZO_f4hlv9Phs",
+    "expire_date": "2026-03-06T15:23:46.540Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yhww0rchnbog74c8mcdnq2b7x4s0cflh",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEzvHXpvt9AgAGpGpqUdmX8dyXpQrf3nHNfzId9q37vefUzsQtDdvrdYkiP3Aage2i3haelbesc-VD4QTufFsrP6-H-HdTQ67fW0RmDMp0FZGctJlAlOjRFSU0BcDAhkgANRloXjVLRQClaIpFymb0_r9Q2pQ:1uTk23:DMZCoBZrxxfZVIcvFGOJ8aJ-8sq3buYNfPpOrF8pg1g",
+    "expire_date": "2025-07-07T16:28:31.391Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zinf5gmpq7juam1atjnr836lcbd9hdl3",
+  "fields": {
+    "session_data": "e30:1vtSHm:uiROwP6aLbHYEcpTMiV1IWSqriVMqrnVmHm81A-shNY",
+    "expire_date": "2026-03-06T15:19:18.176Z"
+  }
+},
+{
+  "model": "api.customer",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "john@gmail.com"
+    ],
+    "is_test_user": false,
+    "is_suspended": false,
+    "created_at": "2025-05-11T21:21:49.979Z",
+    "updated_at": "2025-05-11T21:21:49.979Z"
+  }
+},
+{
+  "model": "api.customer",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "john1@gmail.com"
+    ],
+    "is_test_user": false,
+    "is_suspended": false,
+    "created_at": "2025-05-11T22:11:25.571Z",
+    "updated_at": "2025-05-11T22:11:25.571Z"
+  }
+},
+{
+  "model": "api.customer",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "lisa@gmail.com"
+    ],
+    "is_test_user": false,
+    "is_suspended": false,
+    "created_at": "2025-05-14T11:31:12.408Z",
+    "updated_at": "2025-05-14T11:31:12.408Z"
+  }
+},
+{
+  "model": "api.customer",
+  "pk": 4,
+  "fields": {
+    "user": [
+      "test-user@easy-store.com"
+    ],
+    "is_test_user": true,
+    "is_suspended": false,
+    "created_at": "2025-05-26T12:01:06.208Z",
+    "updated_at": "2025-05-26T12:01:06.208Z"
+  }
+},
+{
+  "model": "api.customer",
+  "pk": 5,
+  "fields": {
+    "user": [
+      "john11@gmail.com"
+    ],
+    "is_test_user": false,
+    "is_suspended": false,
+    "created_at": "2025-05-26T12:51:46.366Z",
+    "updated_at": "2025-05-26T12:51:46.366Z"
+  }
+},
+{
+  "model": "api.customer",
+  "pk": 6,
+  "fields": {
+    "user": [
+      "john111@gmail.com"
+    ],
+    "is_test_user": false,
+    "is_suspended": false,
+    "created_at": "2025-05-26T13:06:18.550Z",
+    "updated_at": "2025-05-26T13:06:18.550Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 140,
+  "fields": {
+    "name": "Index Chopping Boards",
+    "price": "45.99",
+    "category": "Home & Kitchen",
+    "tags": "chopping board,kitchen,cooking,food preparation,color-coded",
+    "itemsInStock": 5,
+    "percentageOff": 10,
+    "featured": false,
+    "inStock": true,
+    "new": true,
+    "onSale": true,
+    "popular": false,
+    "specialOffer": false,
+    "suspend": false,
+    "description": "Color-coded chopping board system to prevent cross-contamination",
+    "detailedDescription": "The Cooks Professional Index Chopping Board Set features color-coded boards with icons designating specific uses: red for raw meat, blue for fish, green for fruits and vegetables, and white for cooked foods. Each board is crafted from durable, food-grade material with non-slip edges for safe cutting. The compact storage stand keeps your kitchen organized while the dishwasher-safe design ensures hygienic food preparation.",
+    "customer": 1,
+    "created_at": "2025-05-12T09:14:32.122Z",
+    "updated_at": "2025-05-26T16:33:44.808Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 141,
+  "fields": {
+    "name": "4K Smart TV",
+    "price": "749.99",
+    "category": "Electronics",
+    "tags": "tv,smart tv,4k,electronics,home entertainment,ultra hd",
+    "itemsInStock": 10,
+    "percentageOff": null,
+    "featured": true,
+    "inStock": true,
+    "new": true,
+    "onSale": true,
+    "popular": true,
+    "specialOffer": true,
+    "suspend": false,
+    "description": "Ultra HD 4K Smart TV with immersive viewing experience and smart features",
+    "detailedDescription": "Experience stunning picture clarity with this 55-inch 4K Ultra HD Smart TV. Features include HDR technology for enhanced contrast, integrated streaming apps for Netflix, Prime Video, and Disney+, voice assistant compatibility, and multiple HDMI ports for gaming consoles and sound systems. The sleek borderless design maximizes screen space and complements any modern home entertainment setup. With AI-powered upscaling, even non-4K content looks incredible.",
+    "customer": 1,
+    "created_at": "2025-05-12T10:22:15.122Z",
+    "updated_at": "2025-05-14T16:16:18.361Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 142,
+  "fields": {
+    "name": "Induction Pans Set",
+    "price": "129.99",
+    "category": "Home & Kitchen",
+    "tags": "cookware,pans,induction,kitchen,cooking,non-stick",
+    "itemsInStock": 6,
+    "percentageOff": null,
+    "featured": false,
+    "inStock": true,
+    "new": true,
+    "onSale": false,
+    "popular": false,
+    "specialOffer": false,
+    "suspend": false,
+    "description": "Professional-grade induction-compatible cookware set with advanced non-stick coating",
+    "detailedDescription": "The BEZIA Induction Hob Pans Set delivers professional cooking performance for modern kitchens. This comprehensive set includes frying pans, saucepans, and a stockpot, each featuring magnetic stainless steel bases optimized for induction hobs. The multi-layer non-stick coating ensures easy food release and cleanup, while heat-resistant handles provide safe handling. Compatible with all cooktop types including induction, gas, electric, and ceramic surfaces.",
+    "customer": 1,
+    "created_at": "2025-05-12T11:14:32.122Z",
+    "updated_at": "2025-05-14T16:55:20.199Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 143,
+  "fields": {
+    "name": "Index Chopping Boards",
+    "price": "45.99",
+    "category": "Home & Kitchen",
+    "tags": "chopping board,kitchen,cooking,food preparation,color-coded",
+    "itemsInStock": 5,
+    "percentageOff": 10,
+    "featured": false,
+    "inStock": true,
+    "new": true,
+    "onSale": true,
+    "popular": false,
+    "specialOffer": false,
+    "suspend": false,
+    "description": "Color-coded chopping board system to prevent cross-contamination",
+    "detailedDescription": "The Cooks Professional Index Chopping Board Set features color-coded boards with icons designating specific uses: red for raw meat, blue for fish, green for fruits and vegetables, and white for cooked foods. Each board is crafted from durable, food-grade material with non-slip edges for safe cutting. The compact storage stand keeps your kitchen organized while the dishwasher-safe design ensures hygienic food preparation.",
+    "customer": 1,
+    "created_at": "2025-05-12T12:18:32.122Z",
+    "updated_at": "2025-05-14T16:54:01.513Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 144,
+  "fields": {
+    "name": "L-Shaped Sofa Bed",
+    "price": "899.99",
+    "category": "Home & Kitchen",
+    "tags": "sofa bed,corner sofa,storage,furniture,living room,guest bed,convertible",
+    "itemsInStock": 8,
+    "percentageOff": 30,
+    "featured": true,
+    "inStock": true,
+    "new": false,
+    "onSale": false,
+    "popular": true,
+    "specialOffer": false,
+    "suspend": false,
+    "description": "Multifunctional L-shaped sofa bed with integrated storage and pull-out mechanism",
+    "detailedDescription": "The Devoko L-Shaped Corner Sofa Bed offers incredible versatility for modern living. This 3-seater design quickly converts from a comfortable corner sofa to a spacious double bed with an easy pull-out mechanism. The built-in storage compartment beneath the chaise section provides ample space for bedding and pillows. Upholstered in durable, stain-resistant fabric with high-density foam cushions for optimal comfort whether sitting or sleeping.",
+    "customer": 1,
+    "created_at": "2025-05-12T13:25:32.122Z",
+    "updated_at": "2025-05-14T16:52:01.558Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 145,
+  "fields": {
+    "name": "DSLR Camera Kit",
+    "price": "899.99",
+    "category": "Electronics",
+    "tags": "camera,photography,dslr,lens kit,digital camera,professional",
+    "itemsInStock": 7,
+    "percentageOff": 10,
+    "featured": true,
+    "inStock": true,
+    "new": false,
+    "onSale": true,
+    "popular": true,
+    "specialOffer": false,
+    "suspend": false,
+    "description": "Professional DSLR camera with comprehensive lens kit for versatile photography",
+    "detailedDescription": "This complete Digital SLR camera package includes a 24.2 megapixel camera body with APS-C CMOS sensor, versatile 18-55mm standard zoom lens, and 55-250mm telephoto zoom lens for a full range of shooting options. Features include 4K video recording at 30fps, 45-point autofocus system, built-in Wi-Fi and Bluetooth for seamless image transfer, and an optical viewfinder with 100% coverage. Ideal for hobbyists and aspiring professionals looking to elevate their photography.",
+    "customer": 1,
+    "created_at": "2025-05-12T09:44:32.122Z",
+    "updated_at": "2025-05-14T16:57:42.969Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 146,
+  "fields": {
+    "name": "4K Camera Drone",
+    "price": "499.99",
+    "category": "Electronics",
+    "tags": "drone,camera,4k,aerial photography,gadget,quadcopter",
+    "itemsInStock": 7,
+    "percentageOff": null,
+    "featured": true,
+    "inStock": true,
+    "new": true,
+    "onSale": false,
+    "popular": true,
+    "specialOffer": false,
+    "suspend": false,
+    "description": "High-performance quadcopter drone with stabilized 4K UHD camera system",
+    "detailedDescription": "Capture breathtaking aerial footage with this advanced drone featuring a 3-axis gimbal-stabilized 4K UHD camera. With 30 minutes of flight time per charge, GPS positioning for stable hovering, intelligent flight modes, and obstacle avoidance sensors, both beginners and experienced pilots can create professional-quality aerial content. The intuitive controller pairs with your smartphone for live HD video feed up to 7km away.",
+    "customer": 1,
+    "created_at": "2025-05-12T10:55:32.122Z",
+    "updated_at": "2025-05-14T16:55:31.117Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 147,
+  "fields": {
+    "name": "Play station",
+    "price": "499.99",
+    "category": "Electronics",
+    "tags": "gaming,console,playstation,xbox,entertainment,video games",
+    "itemsInStock": 7,
+    "percentageOff": null,
+    "featured": true,
+    "inStock": true,
+    "new": false,
+    "onSale": false,
+    "popular": true,
+    "specialOffer": false,
+    "suspend": false,
+    "description": "Next-generation gaming console with advanced graphics and immersive gaming experiences",
+    "detailedDescription": "Experience the future of gaming with this next-generation console featuring ray-tracing technology, 4K gameplay at up to 120fps, and lightning-fast SSD for near-instant loading times. The included wireless controller offers haptic feedback and adaptive triggers for unprecedented immersion. With backward compatibility for previous generation games and access to an extensive game library, plus built-in streaming apps, this console delivers complete entertainment for gamers of all ages.",
+    "customer": 1,
+    "created_at": "2025-05-12T11:36:32.122Z",
+    "updated_at": "2025-05-14T16:55:04.349Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 148,
+  "fields": {
+    "name": "Rattan Garden Set",
+    "price": "1299.99",
+    "category": "Garden & Outdoor Living",
+    "tags": "garden furniture,rattan,corner sofa,outdoor,patio,parasol,sun lounger,furniture cover",
+    "itemsInStock": 5,
+    "percentageOff": 20,
+    "featured": true,
+    "inStock": true,
+    "new": false,
+    "onSale": true,
+    "popular": false,
+    "specialOffer": true,
+    "suspend": false,
+    "description": "Complete 8-piece luxury outdoor furniture set with innovative ice cooler table",
+    "detailedDescription": "Transform your garden into an outdoor oasis with the Giardino Havana 8-piece set. This premium collection includes a stylish L-shaped 6-seater rattan corner sofa with plush, water-resistant cushions, an innovative coffee table with built-in ice cooler compartment for entertaining, a matching sun lounger for relaxation, a coordinating parasol for shade, and a protective furniture cover for year-round protection. Crafted from weather-resistant poly rattan with a powder-coated aluminum frame, this durable set combines comfort, functionality and style for your patio or garden.",
+    "customer": 1,
+    "created_at": "2025-05-12T12:48:32.122Z",
+    "updated_at": "2025-05-14T16:53:15.944Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 149,
+  "fields": {
+    "name": "Kitchen Cookware Set",
+    "price": "159.99",
+    "category": "Home & Kitchen",
+    "tags": "cookware,pots,pans,kitchen,cooking,heat resistant",
+    "itemsInStock": 7,
+    "percentageOff": null,
+    "featured": false,
+    "inStock": true,
+    "new": false,
+    "onSale": true,
+    "popular": true,
+    "specialOffer": true,
+    "suspend": false,
+    "description": "Professional cookware set with heat-resistant handles and premium non-stick coating",
+    "detailedDescription": "This comprehensive cookware set includes everything needed for culinary excellence: frying pans, saucepans, a stockpot, and a saute pan. Each piece features specially designed heat-resistant handles for safe handling and tempered glass lids for easy monitoring. The premium non-stick coating ensures effortless cooking and cleaning, while the heavy-gauge aluminum core provides exceptional heat distribution. Suitable for all stovetop types including induction, this set combines professional performance with everyday practicality.",
+    "customer": 1,
+    "created_at": "2025-05-12T13:59:32.122Z",
+    "updated_at": "2025-05-14T16:52:28.041Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 150,
+  "fields": {
+    "name": "Weight Bench",
+    "price": "199.99",
+    "category": "Health & Wellness",
+    "tags": "weight bench,gym equipment,fitness,strength training,home gym,bench press",
+    "itemsInStock": 8,
+    "percentageOff": null,
+    "featured": false,
+    "inStock": true,
+    "new": true,
+    "onSale": false,
+    "popular": false,
+    "specialOffer": false,
+    "suspend": false,
+    "description": "Commercial-grade adjustable weight bench with 600kg capacity for serious training",
+    "detailedDescription": "The Keppi Bench1000 Pro offers gym-quality performance for home workouts with its remarkable 600kg weight capacity. This versatile bench features 7 adjustable backrest positions from decline to upright, removable leg developer and foot catch for complete ab workouts, and high-density padding with tear-resistant upholstery. The heavy-duty steel frame with wide stabilizing base ensures maximum safety during intense training sessions, making it ideal for bench press, dumbbell work, and full-body strength exercises.",
+    "customer": 1,
+    "created_at": "2025-05-12T09:24:32.122Z",
+    "updated_at": "2025-05-14T16:58:48.488Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 151,
+  "fields": {
+    "name": "Laptop Bag",
+    "price": "49.99",
+    "category": "Office & Stationery",
+    "tags": "bag,laptop,business,travel,accessory,computer bag",
+    "itemsInStock": 5,
+    "percentageOff": null,
+    "featured": false,
+    "inStock": true,
+    "new": true,
+    "onSale": false,
+    "popular": false,
+    "specialOffer": false,
+    "suspend": false,
+    "description": "Multi-functional laptop bag with protective padding and organization features",
+    "detailedDescription": "This premium laptop bag combines protection and organization for professionals on the go. Featuring a padded compartment for laptops up to 15.6 inches, dedicated tablet sleeve, document section, and multiple accessory pockets. Constructed from water-resistant, durable materials with reinforced stitching at stress points, the bag includes both a comfortable padded shoulder strap and a luggage pass-through strap for convenient travel. Perfect for business professionals, students, and commuters.",
+    "customer": 1,
+    "created_at": "2025-05-12T10:35:32.122Z",
+    "updated_at": "2025-05-14T16:56:48.350Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 152,
+  "fields": {
+    "name": "Stoneware Dinner Set",
+    "price": "129.99",
+    "category": "Home & Kitchen",
+    "tags": "dinnerware,plates,dining,kitchen,stoneware,dinner set",
+    "itemsInStock": 9,
+    "percentageOff": 10,
+    "featured": false,
+    "inStock": true,
+    "new": false,
+    "onSale": true,
+    "popular": false,
+    "specialOffer": true,
+    "suspend": false,
+    "description": "Elegant 18-piece stoneware dinner set with contemporary design for 6 people",
+    "detailedDescription": "The LeRatio 18-piece dinner set elevates everyday dining with its sophisticated design and premium quality. This complete service for six includes dinner plates, salad/dessert plates, and multipurpose bowls, all crafted from durable stoneware with a sleek, contemporary finish. The subtly reactive glaze creates unique variations in each piece, while the chip-resistant construction ensures longevity. Microwave and dishwasher safe for convenient use and easy maintenance.",
+    "customer": 1,
+    "created_at": "2025-05-12T11:46:32.122Z",
+    "updated_at": "2025-05-14T16:54:52.998Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 153,
+  "fields": {
+    "name": "MacBook Pro",
+    "price": "1999.99",
+    "category": "Electronics",
+    "tags": "laptop,apple,macbook,computer,premium,professional",
+    "itemsInStock": 10,
+    "percentageOff": null,
+    "featured": true,
+    "inStock": true,
+    "new": false,
+    "onSale": false,
+    "popular": true,
+    "specialOffer": false,
+    "suspend": false,
+    "description": "High-performance Apple laptop with Retina display for professional applications",
+    "detailedDescription": "The latest MacBook Pro combines exceptional performance with stunning visuals. Featuring the advanced Apple silicon chip for breakthrough speed and efficiency, a brilliant Retina display with True Tone technology, and all-day battery life. Professional features include a Magic Keyboard with Touch ID, high-fidelity speakers with spatial audio, studio-quality microphones, and versatile Thunderbolt ports. Perfect for creative professionals, developers, and anyone requiring premium performance and reliability.",
+    "customer": 1,
+    "created_at": "2025-05-12T12:57:32.122Z",
+    "updated_at": "2025-05-14T16:53:03.778Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 154,
+  "fields": {
+    "name": "Men's Formal Suit",
+    "price": "299.99",
+    "category": "Clothing & Apparel",
+    "tags": "suit,formal,menswear,business,clothing,professional",
+    "itemsInStock": 10,
+    "percentageOff": null,
+    "featured": false,
+    "inStock": true,
+    "new": false,
+    "onSale": true,
+    "popular": false,
+    "specialOffer": false,
+    "suspend": false,
+    "description": "Classic tailored two-piece suit for professional and formal occasions",
+    "detailedDescription": "This sophisticated men's suit combines timeless style with modern tailoring for a refined silhouette. Crafted from a premium wool blend fabric that offers comfort, breathability, and wrinkle resistance. The single-breasted jacket features notch lapels, two-button closure, and four interior pockets, while the matching flat-front trousers include a comfortable waistband with belt loops. Available in versatile colors suitable for business meetings, interviews, weddings, and formal events.",
+    "customer": 1,
+    "created_at": "2025-05-12T14:08:32.122Z",
+    "updated_at": "2025-05-14T16:51:30.708Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 155,
+  "fields": {
+    "name": "Cross Trainer",
+    "price": "799.99",
+    "category": "Sports & Outdoors",
+    "tags": "cross trainer,elliptical,fitness,home gym,cardio,magnetic resistance",
+    "itemsInStock": 7,
+    "percentageOff": 10,
+    "featured": true,
+    "inStock": true,
+    "new": true,
+    "onSale": true,
+    "popular": false,
+    "specialOffer": false,
+    "suspend": false,
+    "description": "Premium self-powered elliptical with extra-long stride and advanced features",
+    "detailedDescription": "The MERACH Cross Trainer delivers a gym-quality workout experience at home with its innovative features. The self-generating power system eliminates the need for outlets, while the ultra-quiet magnetic resistance ensures peaceful workouts. The extra-long 18.5-inch stride length accommodates users of all heights for natural movement patterns. With automatic resistance adjustment, integrated fitness programs, and a robust 400 lbs weight capacity, this commercial-grade elliptical provides effective, low-impact cardio training for users of all fitness levels.",
+    "customer": 1,
+    "created_at": "2025-05-12T09:29:32.122Z",
+    "updated_at": "2025-05-14T16:58:11.052Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 156,
+  "fields": {
+    "name": "Patio Dining Set",
+    "price": "649.99",
+    "category": "Garden & Outdoor Living",
+    "tags": "patio furniture,dining set,outdoor,garden,rattan,umbrella hole",
+    "itemsInStock": 8,
+    "percentageOff": null,
+    "featured": false,
+    "inStock": true,
+    "new": false,
+    "onSale": true,
+    "popular": false,
+    "specialOffer": true,
+    "suspend": false,
+    "description": "Complete 7-piece outdoor dining set with umbrella hole for garden entertaining",
+    "detailedDescription": "Create the perfect outdoor dining space with the MFSTUDIO 7-piece set. This comprehensive collection includes six comfortable rattan chairs with water-resistant cushions and a durable 150cm rectangular metal slat table with a convenient 4cm umbrella hole for adding shade. The weather-resistant materials ensure long-lasting performance in outdoor conditions, while the stylish design complements gardens, patios, and balconies. Easy assembly and maintenance make this set a practical choice for outdoor entertaining and dining.",
+    "customer": 1,
+    "created_at": "2025-05-12T10:37:32.122Z",
+    "updated_at": "2025-05-14T16:56:20.401Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 157,
+  "fields": {
+    "name": "Cream Corner Sofa",
+    "price": "849.99",
+    "category": "Home & Kitchen",
+    "tags": "corner sofa,fabric,cream,living room,furniture,jumbo cord",
+    "itemsInStock": 6,
+    "percentageOff": null,
+    "featured": true,
+    "inStock": true,
+    "new": true,
+    "onSale": false,
+    "popular": true,
+    "specialOffer": false,
+    "suspend": false,
+    "description": "Luxurious cream jumbo cord corner sofa with left-hand configuration",
+    "detailedDescription": "The New Luxor Corner Sofa transforms living spaces with its sumptuous soft jumbo cord fabric in elegant cream. This left-hand facing design comfortably seats 3-4 people with its generous proportions and plush fiber-filled cushioning. Built on a solid hardwood frame with supportive serpentine springs, this sofa combines exceptional comfort with durability. The contemporary design with subtle piping detail complements various interior styles while the neutral cream color creates a bright, inviting atmosphere.",
+    "customer": 1,
+    "created_at": "2025-05-12T11:49:32.122Z",
+    "updated_at": "2025-05-14T16:54:36.563Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 158,
+  "fields": {
+    "name": "Ergonomic Office Chair",
+    "price": "179.99",
+    "category": "Office & Stationery",
+    "tags": "chair,office,ergonomic,desk,furniture,adjustable",
+    "itemsInStock": null,
+    "percentageOff": 10,
+    "featured": false,
+    "inStock": true,
+    "new": false,
+    "onSale": true,
+    "popular": true,
+    "specialOffer": false,
+    "suspend": false,
+    "description": "Ergonomic office chair with multiple adjustment features for optimal comfort",
+    "detailedDescription": "This professional-grade office chair prioritizes comfort and health during long work sessions. Features include pneumatic height adjustment, synchronized tilt mechanism with tension control, adjustable lumbar support, and 3D armrests that adjust in height, width, and angle. The breathable mesh backrest promotes airflow, while the high-density molded foam seat provides lasting support. The sturdy five-wheel base with smooth-rolling casters offers stability and mobility across different floor surfaces.",
+    "customer": 1,
+    "created_at": "2025-05-12T12:58:32.122Z",
+    "updated_at": "2025-05-14T16:52:51.659Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 160,
+  "fields": {
+    "name": "Polarised Sports Sunglasses",
+    "price": "59.99",
+    "category": "Jewelry & Accessories",
+    "tags": "sunglasses,sports,polarized,outdoor,eyewear,uv protection",
+    "itemsInStock": null,
+    "percentageOff": null,
+    "featured": false,
+    "inStock": true,
+    "new": true,
+    "onSale": false,
+    "popular": false,
+    "specialOffer": false,
+    "suspend": false,
+    "description": "High-performance polarized sports sunglasses with UV400 protection",
+    "detailedDescription": "The PUKCLAR Sports Sunglasses combine style and functionality for active lifestyles. These lightweight, durable sunglasses feature polarized lenses that reduce glare and enhance visual clarity during outdoor activities. The aerodynamic frame with non-slip nose pads and temple grips ensures a secure fit even during intense movement. With UV400 protection shielding eyes from 100% of harmful UVA/UVB rays, these versatile sunglasses are perfect for running, cycling, fishing, driving, and other outdoor pursuits.",
+    "customer": 1,
+    "created_at": "2025-05-12T09:39:32.122Z",
+    "updated_at": "2025-05-14T16:57:56.703Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 161,
+  "fields": {
+    "name": "Push Up Board",
+    "price": "39.99",
+    "category": "Health & Wellness",
+    "tags": "push up board,fitness,strength training,home workout,exercise equipment,chest workout",
+    "itemsInStock": 9,
+    "percentageOff": 20,
+    "featured": false,
+    "inStock": true,
+    "new": true,
+    "onSale": true,
+    "popular": false,
+    "specialOffer": true,
+    "suspend": false,
+    "description": "Color-coded push-up training system with automatic counter for targeted muscle development",
+    "detailedDescription": "This comprehensive push-up training system revolutionizes bodyweight workouts with its color-coded board indicating optimal hand positions for targeting specific muscle groups. The integrated automatic counter accurately tracks repetitions to monitor progress and maintain motivation. Constructed from durable, high-density materials with non-slip base, this portable fitness equipment helps develop chest, shoulders, arms, and core strength through effective, science-based exercises. Suitable for all fitness levels from beginners to advanced athletes looking to enhance their strength training routine.",
+    "customer": 1,
+    "created_at": "2025-05-12T10:50:32.122Z",
+    "updated_at": "2025-05-14T16:56:06.417Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 162,
+  "fields": {
+    "name": "Ray-Ban Aviators",
+    "price": "149.99",
+    "category": "Clothing & Apparel",
+    "tags": "sunglasses,ray-ban,aviator,designer,eyewear,mens,uv protection",
+    "itemsInStock": 5,
+    "percentageOff": 50,
+    "featured": true,
+    "inStock": true,
+    "new": false,
+    "onSale": false,
+    "popular": true,
+    "specialOffer": true,
+    "suspend": false,
+    "description": "Iconic Ray-Ban Aviator sunglasses with classic teardrop shape",
+    "detailedDescription": "The legendary Ray-Ban Aviator sunglasses feature the timeless teardrop shape that has defined style for generations. Crafted with precision-engineered metal frames and available in various lens options including polarized and gradient treatments. These sunglasses provide 100% UV protection while delivering the unmistakable Aviator look favored by pilots, celebrities, and style enthusiasts worldwide. Each pair includes a protective Ray-Ban case and cleaning cloth with authenticity certification.",
+    "customer": 1,
+    "created_at": "2025-05-12T12:01:32.122Z",
+    "updated_at": "2025-05-16T11:28:56.832Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 163,
+  "fields": {
+    "name": "Ray-Ban Clubmaster",
+    "price": "159.99",
+    "category": "Jewelry & Accessories",
+    "tags": "sunglasses,ray-ban,unisex,designer,eyewear,clubmaster,blue lens",
+    "itemsInStock": 10,
+    "percentageOff": null,
+    "featured": false,
+    "inStock": true,
+    "new": false,
+    "onSale": false,
+    "popular": true,
+    "specialOffer": false,
+    "suspend": false,
+    "description": "Stylish Ray-Ban unisex sunglasses with distinctive shiny/matte contrast and blue lenses",
+    "detailedDescription": "These sophisticated Ray-Ban Unisex sunglasses blend classic inspiration with contemporary design. Featuring a unique shiny black top with matte finish lower frame and striking blue lenses, these 51mm sunglasses make a bold style statement. The durable metal and acetate construction ensures longevity, while Ray-Ban's optical precision provides distortion-free vision with 100% UV protection. Complete with the iconic Ray-Ban logo, protective case, and authenticity certificate.",
+    "customer": 1,
+    "created_at": "2025-05-12T13:12:32.122Z",
+    "updated_at": "2025-05-14T16:52:21.410Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 164,
+  "fields": {
+    "name": "Indoor Cycling Bike",
+    "price": "289.99",
+    "category": "Health & Wellness",
+    "tags": "exercise bike,spin bike,indoor cycling,fitness,home gym,cardio training",
+    "itemsInStock": 10,
+    "percentageOff": 10,
+    "featured": false,
+    "inStock": true,
+    "new": true,
+    "onSale": true,
+    "popular": false,
+    "specialOffer": false,
+    "suspend": false,
+    "description": "Professional indoor cycling bike with LCD display and integrated tablet holder",
+    "detailedDescription": "The Wenoker Exercise Bike delivers an authentic studio cycling experience in the comfort of your home. This professional-grade fitness equipment features a heavy-duty flywheel with adjustable resistance levels, fully adjustable seat and handlebars for perfect positioning, and an LCD display tracking essential performance metrics. The integrated tablet holder allows you to follow workout videos or enjoy entertainment during exercise. With its stable frame, comfortable sports saddle, and maintenance-free belt drive system, this premium spin bike provides effective, low-impact cardio workouts for users of all fitness levels.",
+    "customer": 1,
+    "created_at": "2025-05-12T14:23:32.122Z",
+    "updated_at": "2025-05-14T16:51:19.527Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 165,
+  "fields": {
+    "name": "Noise-Canceling Headphones",
+    "price": "249.99",
+    "category": "Electronics",
+    "tags": "headphones,wireless,noise-canceling,audio,electronics,bluetooth",
+    "itemsInStock": 8,
+    "percentageOff": null,
+    "featured": true,
+    "inStock": true,
+    "new": false,
+    "onSale": true,
+    "popular": true,
+    "specialOffer": true,
+    "suspend": false,
+    "description": "Premium wireless headphones with advanced active noise cancellation technology",
+    "detailedDescription": "Experience extraordinary sound quality with these state-of-the-art wireless noise-canceling headphones. The advanced active noise cancellation technology adapts to your environment, blocking out unwanted sound while preserving audio clarity. Featuring high-resolution audio, 30 hours of battery life, and quick charge functionality providing 5 hours of playback from just 10 minutes of charging. The premium over-ear design with memory foam ear cushions ensures long-lasting comfort, while intuitive touch controls and voice assistant compatibility offer effortless operation.",
+    "customer": 1,
+    "created_at": "2025-05-12T09:19:32.122Z",
+    "updated_at": "2025-05-14T16:59:00.839Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 166,
+  "fields": {
+    "name": "Rattan Garden Sofa",
+    "price": "1099.99",
+    "category": "Garden & Outdoor Living",
+    "tags": "garden furniture,rattan,corner sofa,outdoor,patio,9-seater,mixed grey",
+    "itemsInStock": 3,
+    "percentageOff": 20,
+    "featured": true,
+    "inStock": true,
+    "new": false,
+    "onSale": true,
+    "popular": false,
+    "specialOffer": true,
+    "suspend": false,
+    "description": "Spacious 9-seater mixed grey rattan garden set with versatile configuration and light cushions",
+    "detailedDescription": "The Yesuitme Garden Furniture Set transforms outdoor spaces into stylish entertainment areas. This comprehensive collection includes a spacious rattan corner sofa that comfortably seats 9 people, a matching table for refreshments, and 3 versatile stools for flexible seating arrangements. The contemporary mixed grey rattan with light cushions creates an elegant neutral palette that complements any garden setting. Constructed from weather-resistant, UV-stabilized materials for year-round durability, with removable cushion covers for easy cleaning and maintenance.",
+    "customer": 1,
+    "created_at": "2025-05-12T10:30:32.122Z",
+    "updated_at": "2025-05-14T16:56:59.151Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 173,
+  "fields": {
+    "name": "Rooney Hoover",
+    "price": "27.00",
+    "category": "Books",
+    "tags": "Magnam anim modi har",
+    "itemsInStock": 10,
+    "percentageOff": 25,
+    "featured": true,
+    "inStock": false,
+    "new": true,
+    "onSale": true,
+    "popular": true,
+    "specialOffer": false,
+    "suspend": true,
+    "description": "Non voluptatem fugia",
+    "detailedDescription": "Quasi ad aut maxime",
+    "customer": 3,
+    "created_at": "2025-05-14T12:31:04.299Z",
+    "updated_at": "2025-05-14T12:31:04.299Z"
+  }
+},
+{
+  "model": "api.product",
+  "pk": 187,
+  "fields": {
+    "name": "hello drone",
+    "price": "45.99",
+    "category": "Electronics",
+    "tags": "one, two, three, four",
+    "itemsInStock": 6,
+    "percentageOff": 25,
+    "featured": true,
+    "inStock": true,
+    "new": true,
+    "onSale": true,
+    "popular": true,
+    "specialOffer": true,
+    "suspend": false,
+    "description": "Professional indoor cycling bike with LCD display and integrated tablet holder",
+    "detailedDescription": "this is just a test product",
+    "customer": 4,
+    "created_at": "2025-05-26T13:31:32.797Z",
+    "updated_at": "2025-05-26T17:22:20.493Z"
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 115,
+  "fields": {
+    "product": 164,
+    "image": "image/upload/ogeklvh9pbnrxtpvgrpb",
+    "created_at": "2025-05-13T12:18:17.463Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 116,
+  "fields": {
+    "product": 164,
+    "image": "image/upload/niasx2uumx40jf7dppvo",
+    "created_at": "2025-05-13T12:18:18.384Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 117,
+  "fields": {
+    "product": 154,
+    "image": "image/upload/igidgsnatizoqwv3jko0",
+    "created_at": "2025-05-13T12:33:34.293Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 118,
+  "fields": {
+    "product": 154,
+    "image": "image/upload/utxhldausvrmue3qwsoq",
+    "created_at": "2025-05-13T12:33:35.041Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 119,
+  "fields": {
+    "product": 156,
+    "image": "image/upload/lf5e7rp4spu9dsv61mor",
+    "created_at": "2025-05-13T12:35:56.087Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 120,
+  "fields": {
+    "product": 156,
+    "image": "image/upload/tnfap6oq7xapjvp8y3nl",
+    "created_at": "2025-05-13T12:35:57.010Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 121,
+  "fields": {
+    "product": 156,
+    "image": "image/upload/mvgibyx8wnyolue8z5ra",
+    "created_at": "2025-05-13T12:35:57.833Z",
+    "order": 4
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 122,
+  "fields": {
+    "product": 156,
+    "image": "image/upload/sb0jz8uorwsq8i8w9bti",
+    "created_at": "2025-05-13T12:35:58.545Z",
+    "order": 6
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 130,
+  "fields": {
+    "product": 140,
+    "image": "image/upload/ses8vojaxopubb0oi0i1",
+    "created_at": "2025-05-13T15:16:04.438Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 131,
+  "fields": {
+    "product": 140,
+    "image": "image/upload/oho5pce21fd5ih5tmcyg",
+    "created_at": "2025-05-13T15:16:05.187Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 132,
+  "fields": {
+    "product": 140,
+    "image": "image/upload/io9h69vi48ucunyb9zb1",
+    "created_at": "2025-05-13T15:16:06.588Z",
+    "order": 4
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 133,
+  "fields": {
+    "product": 165,
+    "image": "image/upload/dj5yilm8eudcmr9g09li",
+    "created_at": "2025-05-13T15:16:36.484Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 134,
+  "fields": {
+    "product": 165,
+    "image": "image/upload/cqocbg57n6l0p4nbddih",
+    "created_at": "2025-05-13T15:16:37.616Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 135,
+  "fields": {
+    "product": 150,
+    "image": "image/upload/jj70f2axpgknmuhrltig",
+    "created_at": "2025-05-13T15:17:27.691Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 136,
+  "fields": {
+    "product": 150,
+    "image": "image/upload/tb8s290cqxw0kozmigh8",
+    "created_at": "2025-05-13T15:17:28.612Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 137,
+  "fields": {
+    "product": 155,
+    "image": "image/upload/uhnwtwvr1homypjdyrik",
+    "created_at": "2025-05-13T15:18:11.819Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 138,
+  "fields": {
+    "product": 155,
+    "image": "image/upload/aamrtapyzbs7fatd9pq5",
+    "created_at": "2025-05-13T15:18:12.534Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 139,
+  "fields": {
+    "product": 155,
+    "image": "image/upload/uefravu8cc6ikrfdawvq",
+    "created_at": "2025-05-13T15:18:13.446Z",
+    "order": 4
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 140,
+  "fields": {
+    "product": 155,
+    "image": "image/upload/whjkgfkvvliiz0niyrfy",
+    "created_at": "2025-05-13T15:18:14.150Z",
+    "order": 6
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 141,
+  "fields": {
+    "product": 155,
+    "image": "image/upload/hol2rsaf09bzyvw6s8re",
+    "created_at": "2025-05-13T15:18:15.001Z",
+    "order": 8
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 142,
+  "fields": {
+    "product": 160,
+    "image": "image/upload/qy1lirpxllxzrljsy1fi",
+    "created_at": "2025-05-13T15:18:44.021Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 143,
+  "fields": {
+    "product": 160,
+    "image": "image/upload/g8s2yvgllpwszivlcoae",
+    "created_at": "2025-05-13T15:18:44.800Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 144,
+  "fields": {
+    "product": 145,
+    "image": "image/upload/byczgvuonxrcgengyym5",
+    "created_at": "2025-05-13T15:19:20.129Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 145,
+  "fields": {
+    "product": 145,
+    "image": "image/upload/dinljnf25fqvq7p5uicb",
+    "created_at": "2025-05-13T15:19:21.051Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 146,
+  "fields": {
+    "product": 141,
+    "image": "image/upload/d4bhwiec4zvuo5yxe4gl",
+    "created_at": "2025-05-13T15:21:58.181Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 147,
+  "fields": {
+    "product": 141,
+    "image": "image/upload/djkiau0uwhyipbky4ejz",
+    "created_at": "2025-05-13T15:21:58.954Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 148,
+  "fields": {
+    "product": 141,
+    "image": "image/upload/u6dwu87xrfbtx0xssqlk",
+    "created_at": "2025-05-13T15:21:59.875Z",
+    "order": 4
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 149,
+  "fields": {
+    "product": 141,
+    "image": "image/upload/atddjiowxaygur5xftbn",
+    "created_at": "2025-05-13T15:22:01.109Z",
+    "order": 6
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 150,
+  "fields": {
+    "product": 141,
+    "image": "image/upload/fahzckb9koqg2jrmllfw",
+    "created_at": "2025-05-13T15:22:02.027Z",
+    "order": 8
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 151,
+  "fields": {
+    "product": 141,
+    "image": "image/upload/ocznm68bfobeqgbwq3y9",
+    "created_at": "2025-05-13T15:22:03.135Z",
+    "order": 10
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 152,
+  "fields": {
+    "product": 166,
+    "image": "image/upload/swoqtqfqrjarimoczvts",
+    "created_at": "2025-05-13T15:22:38.062Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 153,
+  "fields": {
+    "product": 166,
+    "image": "image/upload/ca7sgppmcqawb5co5p9z",
+    "created_at": "2025-05-13T15:22:38.911Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 154,
+  "fields": {
+    "product": 166,
+    "image": "image/upload/q1jrdxjeesckku6ixd7m",
+    "created_at": "2025-05-13T15:22:39.704Z",
+    "order": 4
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 155,
+  "fields": {
+    "product": 166,
+    "image": "image/upload/ow9hodapvnmszirm62tc",
+    "created_at": "2025-05-13T15:22:41.041Z",
+    "order": 6
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 156,
+  "fields": {
+    "product": 166,
+    "image": "image/upload/o61l8rum9jevmzomx1xm",
+    "created_at": "2025-05-13T15:22:43.809Z",
+    "order": 8
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 157,
+  "fields": {
+    "product": 151,
+    "image": "image/upload/pljve9snxedayygt9ke3",
+    "created_at": "2025-05-13T15:23:14.319Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 158,
+  "fields": {
+    "product": 151,
+    "image": "image/upload/gh0eow4p5nngeljzffln",
+    "created_at": "2025-05-13T15:23:15.142Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 159,
+  "fields": {
+    "product": 151,
+    "image": "image/upload/jo8emfcojpijlwttyeq3",
+    "created_at": "2025-05-13T15:23:15.715Z",
+    "order": 4
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 160,
+  "fields": {
+    "product": 161,
+    "image": "image/upload/mnu3n67io0m1mbatjyzm",
+    "created_at": "2025-05-13T15:23:45.863Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 161,
+  "fields": {
+    "product": 161,
+    "image": "image/upload/jwgolpcn7smv599db7dj",
+    "created_at": "2025-05-13T15:23:46.784Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 162,
+  "fields": {
+    "product": 161,
+    "image": "image/upload/nougq0s9ilqhrxtrzymf",
+    "created_at": "2025-05-13T15:23:47.706Z",
+    "order": 4
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 163,
+  "fields": {
+    "product": 146,
+    "image": "image/upload/p3cujcieesg20pirnwjc",
+    "created_at": "2025-05-13T15:26:08.688Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 164,
+  "fields": {
+    "product": 146,
+    "image": "image/upload/xsmsdch42oqjhwfyp32b",
+    "created_at": "2025-05-13T15:26:09.595Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 165,
+  "fields": {
+    "product": 146,
+    "image": "image/upload/efluyuxj1sgbhxyrv1xt",
+    "created_at": "2025-05-13T15:26:10.530Z",
+    "order": 4
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 166,
+  "fields": {
+    "product": 146,
+    "image": "image/upload/aalzq6gcxge0g3bry7i7",
+    "created_at": "2025-05-13T15:26:11.453Z",
+    "order": 6
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 167,
+  "fields": {
+    "product": 142,
+    "image": "image/upload/giudshuy7vtjkalb1nnu",
+    "created_at": "2025-05-13T15:26:56.304Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 168,
+  "fields": {
+    "product": 142,
+    "image": "image/upload/ord0ednajk3upkdtwbyi",
+    "created_at": "2025-05-13T15:26:56.987Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 169,
+  "fields": {
+    "product": 142,
+    "image": "image/upload/xr6iz5dvge0wrlri4kws",
+    "created_at": "2025-05-13T15:26:57.840Z",
+    "order": 4
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 170,
+  "fields": {
+    "product": 142,
+    "image": "image/upload/y8diuf4xfbj41uhiq5e7",
+    "created_at": "2025-05-13T15:26:58.761Z",
+    "order": 6
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 171,
+  "fields": {
+    "product": 142,
+    "image": "image/upload/h9igkbejbmqaslihmgld",
+    "created_at": "2025-05-13T15:26:59.390Z",
+    "order": 8
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 172,
+  "fields": {
+    "product": 147,
+    "image": "image/upload/wgbqqsbfualferash5iq",
+    "created_at": "2025-05-13T15:28:53.415Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 173,
+  "fields": {
+    "product": 152,
+    "image": "image/upload/orcoe3xidqbk0g3gmfci",
+    "created_at": "2025-05-13T15:29:29.599Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 174,
+  "fields": {
+    "product": 152,
+    "image": "image/upload/mlknh16udufsgw2pl5o4",
+    "created_at": "2025-05-13T15:29:30.558Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 175,
+  "fields": {
+    "product": 152,
+    "image": "image/upload/uqduwncwh7cmqcud35hj",
+    "created_at": "2025-05-13T15:29:31.301Z",
+    "order": 4
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 176,
+  "fields": {
+    "product": 152,
+    "image": "image/upload/cpxiuipigoeus8lewkom",
+    "created_at": "2025-05-13T15:29:32.364Z",
+    "order": 6
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 177,
+  "fields": {
+    "product": 157,
+    "image": "image/upload/amrwxjdapfrp7ovyodgf",
+    "created_at": "2025-05-13T15:31:15.584Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 178,
+  "fields": {
+    "product": 157,
+    "image": "image/upload/ixbk7roocc1so7furbw5",
+    "created_at": "2025-05-13T15:31:16.608Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 179,
+  "fields": {
+    "product": 157,
+    "image": "image/upload/ubxqw7ogmn5unfov7mmi",
+    "created_at": "2025-05-13T15:31:17.429Z",
+    "order": 4
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 180,
+  "fields": {
+    "product": 162,
+    "image": "image/upload/qe6b1gnvsvvquwk5tc7u",
+    "created_at": "2025-05-13T15:34:19.601Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 181,
+  "fields": {
+    "product": 162,
+    "image": "image/upload/cebg7hjgrkieqgekx7lr",
+    "created_at": "2025-05-13T15:34:20.524Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 182,
+  "fields": {
+    "product": 162,
+    "image": "image/upload/cccjxshpyavcj9lx15u0",
+    "created_at": "2025-05-13T15:34:21.137Z",
+    "order": 4
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 183,
+  "fields": {
+    "product": 162,
+    "image": "image/upload/y0iatb98g98mcyfrk5cz",
+    "created_at": "2025-05-13T15:34:21.754Z",
+    "order": 6
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 184,
+  "fields": {
+    "product": 143,
+    "image": "image/upload/tkfliiosymlugkli4yij",
+    "created_at": "2025-05-13T15:34:49.403Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 185,
+  "fields": {
+    "product": 143,
+    "image": "image/upload/xcibc7viiomx83nrt4s6",
+    "created_at": "2025-05-13T15:34:50.322Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 186,
+  "fields": {
+    "product": 143,
+    "image": "image/upload/jh3dko7fquh9ylowbksv",
+    "created_at": "2025-05-13T15:34:50.939Z",
+    "order": 4
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 187,
+  "fields": {
+    "product": 143,
+    "image": "image/upload/zrc3w5edvlrasehtuxcx",
+    "created_at": "2025-05-13T15:34:51.494Z",
+    "order": 6
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 188,
+  "fields": {
+    "product": 143,
+    "image": "image/upload/j8vwa20hfopuzpcx0svs",
+    "created_at": "2025-05-13T15:34:52.473Z",
+    "order": 8
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 189,
+  "fields": {
+    "product": 148,
+    "image": "image/upload/den8ndjxu9ebhvm0tbvd",
+    "created_at": "2025-05-13T15:35:31.181Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 190,
+  "fields": {
+    "product": 148,
+    "image": "image/upload/npito43hztbbxgnb5cju",
+    "created_at": "2025-05-13T15:35:31.917Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 191,
+  "fields": {
+    "product": 148,
+    "image": "image/upload/ybtohfmiyylaoz0gssnf",
+    "created_at": "2025-05-13T15:35:32.828Z",
+    "order": 4
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 192,
+  "fields": {
+    "product": 153,
+    "image": "image/upload/x5h7hntgykzm3tmq8mmv",
+    "created_at": "2025-05-13T15:37:29.645Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 193,
+  "fields": {
+    "product": 153,
+    "image": "image/upload/yg6lyv85odvjacofot8y",
+    "created_at": "2025-05-13T15:37:30.684Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 194,
+  "fields": {
+    "product": 153,
+    "image": "image/upload/fmcyxmirmxb0kdfqpsp7",
+    "created_at": "2025-05-13T15:37:31.352Z",
+    "order": 4
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 195,
+  "fields": {
+    "product": 153,
+    "image": "image/upload/ltn86vqtwm7opt4erskl",
+    "created_at": "2025-05-13T15:37:32.221Z",
+    "order": 6
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 196,
+  "fields": {
+    "product": 153,
+    "image": "image/upload/nzcvjdl2ietmrf3y2kgb",
+    "created_at": "2025-05-13T15:37:32.922Z",
+    "order": 8
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 197,
+  "fields": {
+    "product": 153,
+    "image": "image/upload/d70jkwqhfjqnuhug9wyg",
+    "created_at": "2025-05-13T15:37:33.825Z",
+    "order": 10
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 198,
+  "fields": {
+    "product": 158,
+    "image": "image/upload/tfopm7og2f8vr3mxbhhs",
+    "created_at": "2025-05-13T15:38:18.804Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 199,
+  "fields": {
+    "product": 158,
+    "image": "image/upload/e5rwd8hdplxvyq9dp0rz",
+    "created_at": "2025-05-13T15:38:19.533Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 200,
+  "fields": {
+    "product": 158,
+    "image": "image/upload/tanygaxaoeq4hfp86tiv",
+    "created_at": "2025-05-13T15:38:20.132Z",
+    "order": 4
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 201,
+  "fields": {
+    "product": 163,
+    "image": "image/upload/wxwuerrb5k7e8q1rjzdu",
+    "created_at": "2025-05-13T15:39:17.304Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 202,
+  "fields": {
+    "product": 163,
+    "image": "image/upload/nczfnsxhaynmw87sjbe6",
+    "created_at": "2025-05-13T15:39:18.204Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 203,
+  "fields": {
+    "product": 163,
+    "image": "image/upload/e08qdfqlnhnfi0x2yqev",
+    "created_at": "2025-05-13T15:39:18.724Z",
+    "order": 4
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 204,
+  "fields": {
+    "product": 163,
+    "image": "image/upload/ilyyleqxpm2kw8obuemx",
+    "created_at": "2025-05-13T15:39:19.594Z",
+    "order": 6
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 205,
+  "fields": {
+    "product": 163,
+    "image": "image/upload/iext61l24xpxskxbg1zb",
+    "created_at": "2025-05-13T15:39:20.357Z",
+    "order": 8
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 206,
+  "fields": {
+    "product": 144,
+    "image": "image/upload/awgy2xahvpzotkkhwik9",
+    "created_at": "2025-05-13T15:41:11.893Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 207,
+  "fields": {
+    "product": 144,
+    "image": "image/upload/hyivadozaqzlwp7gkpqe",
+    "created_at": "2025-05-13T15:41:12.445Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 208,
+  "fields": {
+    "product": 144,
+    "image": "image/upload/dr7y2kghoavur7tlkb04",
+    "created_at": "2025-05-13T15:41:12.965Z",
+    "order": 4
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 209,
+  "fields": {
+    "product": 144,
+    "image": "image/upload/ckthmvdm8djqhsgnwu86",
+    "created_at": "2025-05-13T15:41:13.702Z",
+    "order": 6
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 210,
+  "fields": {
+    "product": 144,
+    "image": "image/upload/jfpjp9qkczr2f2gg0fsi",
+    "created_at": "2025-05-13T15:41:14.624Z",
+    "order": 8
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 211,
+  "fields": {
+    "product": 144,
+    "image": "image/upload/zoe9opsqcrxvgkviac5y",
+    "created_at": "2025-05-13T15:41:15.544Z",
+    "order": 10
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 212,
+  "fields": {
+    "product": 149,
+    "image": "image/upload/vaw0brbz7lgcrxswpyjf",
+    "created_at": "2025-05-13T15:41:46.258Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 213,
+  "fields": {
+    "product": 149,
+    "image": "image/upload/xlz28xjhdh8f2njugrjd",
+    "created_at": "2025-05-13T15:41:47.180Z",
+    "order": 2
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 214,
+  "fields": {
+    "product": 149,
+    "image": "image/upload/rmkt7kt6zekptfgqekuy",
+    "created_at": "2025-05-13T15:41:47.964Z",
+    "order": 4
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 215,
+  "fields": {
+    "product": 149,
+    "image": "image/upload/l9z6una2amoyo43dvehf",
+    "created_at": "2025-05-13T15:41:49.024Z",
+    "order": 6
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 217,
+  "fields": {
+    "product": 173,
+    "image": "image/upload/jl0tbo8wfr2cz2saprzw",
+    "created_at": "2025-05-14T12:31:05.522Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 233,
+  "fields": {
+    "product": 187,
+    "image": "image/upload/cpck01j3i36yqiuzf741",
+    "created_at": "2025-05-26T13:31:36.834Z",
+    "order": 0
+  }
+},
+{
+  "model": "api.productimage",
+  "pk": 234,
+  "fields": {
+    "product": 187,
+    "image": "image/upload/dnf5wyh69lrlbcvfcx4d",
+    "created_at": "2025-05-26T13:31:37.754Z",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 368,
+  "fields": {
+    "product": 173,
+    "text": "Consequatur Perfere",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 369,
+  "fields": {
+    "product": 173,
+    "text": "Commodi velit quod e",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 370,
+  "fields": {
+    "product": 173,
+    "text": "Qui quidem vel in mi",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 371,
+  "fields": {
+    "product": 173,
+    "text": "Nesciunt ipsa veni",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 380,
+  "fields": {
+    "product": 141,
+    "text": "Stunning 4K Ultra HD resolution with over 8 million pixels delivers four times the clarity of Full HD, bringing unprecedented detail to your favorite movies, shows, and games while HDR technology enhances contrast for lifelike images.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 381,
+  "fields": {
+    "product": 141,
+    "text": "Built-in streaming platform provides instant access to Netflix, Prime Video, Disney+, and more without requiring additional devices, featuring an intuitive interface that learns your preferences to recommend content you'll love.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 382,
+  "fields": {
+    "product": 141,
+    "text": "Voice control compatibility works seamlessly with Alexa and Google Assistant, allowing you to search content, adjust volume, change inputs, and control smart home devices through simple voice commands without reaching for the remote.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 383,
+  "fields": {
+    "product": 141,
+    "text": "Multiple connectivity options including four HDMI 2.1 ports support gaming consoles at 120Hz, while Bluetooth enables wireless audio connections to headphones or soundbars for an enhanced entertainment experience without cable clutter.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 384,
+  "fields": {
+    "product": 164,
+    "text": "Silent belt drive system utilizing automotive-grade components operates virtually silently at all resistance levels and cadences, allowing early morning or late night workouts without disturbing sleeping family members or neighbors in adjacent apartments.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 385,
+  "fields": {
+    "product": 164,
+    "text": "Infinitely variable magnetic resistance controlled by precision micro-adjustment knob provides seamless intensity transitions from gentle recovery rides to challenging hill climbs, delivering consistent resistance that remains stable throughout even the most demanding workouts.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 386,
+  "fields": {
+    "product": 164,
+    "text": "Fully adjustable sports saddle with anatomical cutout reduces pressure on sensitive areas during extended rides, featuring quick-release height adjustment, horizontal position adjustment, and tilt customization to replicate your exact road bike configuration.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 387,
+  "fields": {
+    "product": 164,
+    "text": "Multipurpose performance monitor tracks essential metrics including time, speed, distance, calories, and RPM, while the integrated tablet holder positions your device at the optimal viewing angle for following online cycling classes or enjoying entertainment during workouts.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 388,
+  "fields": {
+    "product": 154,
+    "text": "Premium wool blend fabric combines 65% wool with 35% high-quality polyester, creating a luxurious yet practical material that maintains shape through extended wear while offering natural breathability and impressive wrinkle resistance for business travel.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 389,
+  "fields": {
+    "product": 154,
+    "text": "Sophisticated tailoring with subtle darting creates a refined silhouette that enhances the masculine form without feeling restrictive, featuring a modern slim cut that remains appropriate for traditional business environments or formal occasions.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 390,
+  "fields": {
+    "product": 154,
+    "text": "Thoughtful jacket design includes two-button front closure, notch lapels, four interior pockets including dedicated smartphone compartment, and functioning sleeve buttons, demonstrating quality craftsmanship typically found in suits at significantly higher price points.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 391,
+  "fields": {
+    "product": 154,
+    "text": "Versatile styling potential offers excellent value through separates versatility, allowing the jacket and trousers to be worn independently with other wardrobe pieces for multiple professional and smart-casual outfit combinations beyond traditional suit wearing occasions.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 396,
+  "fields": {
+    "product": 144,
+    "text": "Ingenious pull-out mechanism transforms from comfortable corner sofa to spacious double bed in seconds without removing cushions, requiring minimal effort with its smooth-gliding runners and providing essential flexibility for homes with limited guest accommodation.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 397,
+  "fields": {
+    "product": 144,
+    "text": "Large integrated storage compartment beneath the chaise section offers generous space for bedding, pillows, and throws, keeping essentials hidden yet accessible when needed while maximizing room organization in smaller living environments.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 398,
+  "fields": {
+    "product": 144,
+    "text": "Durable stain-resistant polyester fabric withstands everyday wear while being exceptionally easy to clean with just a damp cloth, making this sofa ideal for busy households with children, pets, or frequent guests.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 399,
+  "fields": {
+    "product": 144,
+    "text": "Modular design allows left or right-hand configuration to suit your room layout, while the robust wooden frame and supportive high-density foam provide consistent comfort whether used for sitting during the day or sleeping at night.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 400,
+  "fields": {
+    "product": 163,
+    "text": "Distinctive browline design combines shiny black acetate upper frame with matte finish lower section creating a sophisticated retro-inspired aesthetic that remains remarkably contemporary, flattering diverse face shapes with its balanced proportions and timeless appeal.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 401,
+  "fields": {
+    "product": 163,
+    "text": "Striking blue lenses provide exceptional color contrast and depth perception while reducing brightness without color distortion, creating a distinctive look that enhances your style while delivering UV protection and visual comfort in bright conditions.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 402,
+  "fields": {
+    "product": 163,
+    "text": "Premium quality construction features acetate front frame that resists warping and discoloration, reinforced metal hinges ensuring perfect alignment throughout years of wear, and adjustable nose pads that prevent slipping during active movement.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 403,
+  "fields": {
+    "product": 163,
+    "text": "Versatile unisex styling transcends conventional gender boundaries, complementing both men's and women's fashion with its medium 51mm lens width that suits various face sizes without overwhelming smaller features or appearing undersized on larger faces.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 404,
+  "fields": {
+    "product": 149,
+    "text": "Triple-layer construction combines stainless steel exterior for durability, aluminum core for superior heat conduction, and ceramic-reinforced non-stick interior, creating professional-grade cookware that heats evenly without hotspots for perfect cooking results.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 405,
+  "fields": {
+    "product": 149,
+    "text": "Ergonomically designed silicone-wrapped handles remain cool during stovetop cooking while providing secure grip even with wet hands, complemented by precisely fitted tempered glass lids featuring steam vents to prevent boil-over during intense cooking.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 406,
+  "fields": {
+    "product": 149,
+    "text": "Comprehensive 12-piece collection includes essential pans in multiple sizes with versatile accessories, providing all necessary cookware for everything from quick breakfasts to elaborate dinner parties without cluttering your kitchen with redundant pieces.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 407,
+  "fields": {
+    "product": 149,
+    "text": "Universal compatibility with all cooktop types including induction, gas, electric and ceramic surfaces ensures seamless integration with your kitchen, while oven-safe construction to 450°F allows transfer from stovetop to oven for finishing recipes.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 408,
+  "fields": {
+    "product": 158,
+    "text": "Advanced ergonomic engineering featuring 3D adjustable armrests that modify in height, width, and angle, combined with synchronized tilt mechanism and adjustable lumbar support creates personalized comfort for your unique body proportions and work style.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 409,
+  "fields": {
+    "product": 158,
+    "text": "Breathable mesh backrest promotes continuous air circulation to regulate body temperature during extended work sessions, while the contoured high-density molded foam seat with waterfall front edge reduces pressure on thighs to improve circulation.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 410,
+  "fields": {
+    "product": 158,
+    "text": "Professional-grade components include class 4 gas lift certified for 100,000 cycles, heavy-duty aluminum base tested to support 150kg, and smooth-rolling 60mm PU casters that move effortlessly across various floor surfaces without causing damage.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 411,
+  "fields": {
+    "product": 158,
+    "text": "Dynamic support features include multi-tilt tension control that adjusts resistance based on body weight, 135-degree recline capability with 4-position lock, and independently adjustable headrest providing crucial neck support during intensive computer work.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 412,
+  "fields": {
+    "product": 153,
+    "text": "Revolutionary Apple silicon chip delivers groundbreaking performance with integrated 10-core CPU and 16-core GPU, executing complex professional workflows up to 3.7 times faster than previous generations while consuming significantly less power for extended battery life.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 413,
+  "fields": {
+    "product": 153,
+    "text": "Stunning Liquid Retina XDR display featuring mini-LED technology provides exceptional brightness up to 1600 nits peak and a million-to-one contrast ratio, enabling precise HDR content creation with extreme dynamic range for professional video and photo editing.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 414,
+  "fields": {
+    "product": 153,
+    "text": "Comprehensive connectivity includes three Thunderbolt 4 ports supporting high-speed peripherals and external displays, HDMI port for presentations, SDXC card slot for media transfer, and MagSafe charging that safely disconnects if the cable is accidentally pulled.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 415,
+  "fields": {
+    "product": 153,
+    "text": "Advanced thermal architecture with dual fans, enlarged copper heat pipes, and expanded heat exchangers delivers exceptional sustained performance during processor-intensive tasks while maintaining whisper-quiet operation suitable for recording studios and professional environments.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 416,
+  "fields": {
+    "product": 148,
+    "text": "Premium weather-resistant poly rattan construction with UV stabilization prevents color fading and material deterioration even with extensive sun exposure, while the powder-coated aluminum frame ensures rust-free performance through all seasons without maintenance.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 417,
+  "fields": {
+    "product": 148,
+    "text": "Innovative table design incorporates a removable ice bucket compartment in the center, keeping drinks cool during extended outdoor gatherings without trips to the kitchen, complemented by a toughened glass top for stable placement of food and beverages.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 418,
+  "fields": {
+    "product": 148,
+    "text": "Luxurious 8cm thick water-resistant cushions provide exceptional comfort for extended relaxation, while quick-dry foam technology prevents water absorption and mildew growth, allowing the furniture to be used shortly after rain showers.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 419,
+  "fields": {
+    "product": 148,
+    "text": "Comprehensive set includes L-shaped 6-seater sofa, multi-position reclining sun lounger, large parasol with crank mechanism, and heavy-duty protective cover, delivering complete garden entertainment solution without requiring additional purchases.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 420,
+  "fields": {
+    "product": 143,
+    "text": "Color-coded system with intuitive icons prevents dangerous cross-contamination during food preparation, clearly designating specific boards for raw meat, fish, fruits and vegetables, and cooked foods in accordance with food safety best practices.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 421,
+  "fields": {
+    "product": 143,
+    "text": "Constructed from high-density polyethylene that resists deep scratches and grooves where bacteria could hide, these boards are engineered to withstand intensive daily use while remaining gentle on knife edges to maintain blade sharpness.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 422,
+  "fields": {
+    "product": 143,
+    "text": "Innovative non-slip silicone corner grips securely anchor each board to your countertop during vigorous chopping and slicing, preventing dangerous slippage and providing confidence when working with sharp knives or preparing slippery foods.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 423,
+  "fields": {
+    "product": 143,
+    "text": "Space-saving vertical storage stand keeps all four boards organized and accessible while occupying minimal counter space, allowing boards to air dry completely between uses to prevent moisture buildup and potential bacterial growth.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 428,
+  "fields": {
+    "product": 157,
+    "text": "Luxuriously soft jumbo cord fabric in versatile cream color creates an inviting focal point in any living space, offering exceptional tactile comfort while effectively brightening darker rooms and complementing various interior design schemes from traditional to contemporary.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 429,
+  "fields": {
+    "product": 157,
+    "text": "Engineered hardwood frame constructed with mortise and tenon joints provides superior structural integrity, reinforced with corner blocking and premium serpentine springs that prevent sagging and maintain perfect seating support for years of daily use.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 430,
+  "fields": {
+    "product": 157,
+    "text": "Generous left-hand facing configuration measuring 260cm x 220cm offers abundant seating for family gatherings, while the deep, plush cushions filled with high-grade fiber deliver the perfect balance between supportive firmness and cozy sink-in comfort.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 431,
+  "fields": {
+    "product": 157,
+    "text": "Practical design features include removable back cushions for easy plumping and maintenance, stain-resistant fabric treatment that repels liquid spills before absorption, and discreet plastic feet that protect flooring while supporting substantial weight capacity.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 432,
+  "fields": {
+    "product": 152,
+    "text": "Handcrafted premium stoneware combines artisanal quality with modern durability, fired at exceptionally high temperatures to create exceptionally strong dinnerware that resists chipping and maintains its beautiful appearance through years of daily use.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 433,
+  "fields": {
+    "product": 152,
+    "text": "Complete service for six includes six dinner plates (27cm), six salad/dessert plates (20cm), and six versatile multipurpose bowls (18cm), providing everything needed for full-course dining experiences from casual family meals to elegant entertaining.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 434,
+  "fields": {
+    "product": 152,
+    "text": "Distinctive reactive glaze technique creates subtle variations in color and finish making each piece uniquely individual while maintaining cohesive set aesthetics, adding artistic character to your table setting that mass-produced dinnerware cannot match.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 435,
+  "fields": {
+    "product": 152,
+    "text": "Practical functionality features dishwasher-safe construction for easy cleaning, microwave-safe materials for convenient reheating, and substantial weight providing satisfying feel without excessive heaviness for comfortable everyday dining experience.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 436,
+  "fields": {
+    "product": 147,
+    "text": "Revolutionary custom AMD processing architecture integrates an 8-core CPU and high-performance GPU delivering unprecedented 4K gaming at up to 120 frames per second, with ray-tracing technology creating realistic lighting, shadows, and reflections.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 437,
+  "fields": {
+    "product": 147,
+    "text": "Ultra-high-speed custom SSD virtually eliminates loading screens and enables game worlds to be rendered at incredible speeds, transforming game design possibilities and allowing instantaneous game switching through the enhanced quick resume feature.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 438,
+  "fields": {
+    "product": 147,
+    "text": "Next-generation wireless controller features adaptive triggers with adjustable tension mimicking in-game actions, advanced haptic feedback providing immersive physical sensations, and a built-in microphone for communication without a headset.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 439,
+  "fields": {
+    "product": 147,
+    "text": "Extensive backward compatibility supports thousands of games from previous console generations with improved loading times, more stable frame rates, and enhanced visual fidelity, protecting your existing game library investment while offering new experiences.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 440,
+  "fields": {
+    "product": 142,
+    "text": "Superior induction compatibility achieved through specialized magnetic stainless steel bases ensures rapid heating and optimal energy efficiency, reaching cooking temperatures up to 40% faster than conventional cookware while providing perfect heat distribution.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 441,
+  "fields": {
+    "product": 142,
+    "text": "Premium five-layer non-stick coating reinforced with diamond particles prevents food from sticking without excessive oil, requires minimal cleanup after cooking, and demonstrates exceptional resistance to scratches even when using metal utensils.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 442,
+  "fields": {
+    "product": 142,
+    "text": "Comprehensive set includes 20cm and 28cm frying pans, 16cm and 18cm saucepans with lids, and a versatile 24cm stockpot, providing all essential cookware for everyday cooking needs from searing and sautéing to boiling and simmering.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 443,
+  "fields": {
+    "product": 142,
+    "text": "Ergonomically designed stay-cool handles with silicone grip inserts remain comfortable to hold even during extended cooking sessions, while tempered glass lids with steam vents allow monitoring food without losing heat or moisture.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 444,
+  "fields": {
+    "product": 146,
+    "text": "Professional 3-axis gimbal stabilization technology compensates for drone movement in flight, delivering remarkably smooth, cinematic footage even in moderate wind conditions while the 4K UHD camera captures breathtaking aerial perspectives with exceptional clarity.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 445,
+  "fields": {
+    "product": 146,
+    "text": "Advanced GPS positioning system maintains precise hovering without pilot input, enables automatic return-to-home safety feature if battery runs low or signal is lost, and supports intelligent flight modes including waypoints, orbit, and tracking.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 446,
+  "fields": {
+    "product": 146,
+    "text": "Industry-leading 30-minute flight time per battery charge provides extended aerial sessions for capturing complex shots without frequent landings, substantially outperforming competitor models typically offering only 15-20 minutes of operation time.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 447,
+  "fields": {
+    "product": 146,
+    "text": "Comprehensive obstacle avoidance system utilizing forward, backward and downward sensors prevents collisions during flight, making this drone accessible for beginners while providing advanced safety features that professional photographers and videographers demand.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 448,
+  "fields": {
+    "product": 161,
+    "text": "Scientific color-coded hand position system clearly identifies optimal placement for targeting specific muscle groups including chest, shoulders, triceps, and back, effectively transforming a single exercise into a comprehensive upper body workout through precise biomechanical positioning.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 449,
+  "fields": {
+    "product": 161,
+    "text": "Integrated digital counter with motion sensor technology automatically tracks repetitions during your workout, removing the mental distraction of counting while providing accurate performance metrics to monitor progress and maintain consistent training intensity.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 450,
+  "fields": {
+    "product": 161,
+    "text": "Premium construction utilizing high-density polyethylene with reinforced support structure withstands users up to 150kg, while the non-slip base with textured rubber coating ensures stable positioning on various floor surfaces during dynamic movement patterns.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 451,
+  "fields": {
+    "product": 161,
+    "text": "Portable design with convenient carrying handle and modest 60cm x 20cm footprint enables effective strength training in limited spaces, making it ideal for home workouts, travel fitness, office exercise breaks, or outdoor training sessions.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 452,
+  "fields": {
+    "product": 156,
+    "text": "Weather-resistant materials throughout the entire set ensure impressive durability in outdoor conditions, featuring powder-coated aluminum frame construction that will never rust, and premium PE rattan weave that resists fading, cracking and peeling.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 453,
+  "fields": {
+    "product": 156,
+    "text": "Generously proportioned rectangular table measuring 150cm x 90cm comfortably accommodates six diners with ample elbow room, while the sturdy metal slat construction prevents water pooling after rain and includes 4cm diameter umbrella hole for shade integration.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 454,
+  "fields": {
+    "product": 156,
+    "text": "Ergonomically designed dining chairs feature gently curved rattan backs providing excellent lumbar support, complemented by thick 5cm water-resistant cushions with removable, machine-washable covers for easy seasonal cleaning and maintenance.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 455,
+  "fields": {
+    "product": 156,
+    "text": "Versatile neutral color palette with mixed brown rattan and cream cushions complements virtually any outdoor setting from contemporary urban terraces to traditional garden spaces, while lightweight construction allows easy movement for flexible entertainment arrangements.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 456,
+  "fields": {
+    "product": 151,
+    "text": "Superior protection system features impact-resistant padding surrounding the laptop compartment with reinforced corners, effectively absorbing shocks during transportation while keeping your valuable technology secure from bumps, drops, and everyday handling.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 457,
+  "fields": {
+    "product": 151,
+    "text": "Intelligently organized storage includes dedicated padded laptop section fitting devices up to 15.6 inches, separate tablet sleeve, document compartment, and multiple accessory pockets for chargers, cables, pens, and business cards for optimal accessibility.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 458,
+  "fields": {
+    "product": 151,
+    "text": "Premium weather-resistant ballistic nylon exterior with water-repellent coating shields contents from light rain and spills, while reinforced stitching at all stress points ensures durability through daily commutes and frequent business travel.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 459,
+  "fields": {
+    "product": 151,
+    "text": "Versatile carrying options include padded adjustable shoulder strap, comfortable leather-wrapped handles, and integrated luggage pass-through panel that slides over suitcase handles, providing convenient transport flexibility for various travel situations.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 460,
+  "fields": {
+    "product": 166,
+    "text": "Expansive 9-seater design comfortably accommodates large gatherings within a remarkably space-efficient footprint, featuring a versatile modular arrangement that can be configured as a unified corner unit or separated into multiple seating areas as entertainment needs require.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 461,
+  "fields": {
+    "product": 166,
+    "text": "Weather-resistant construction combines UV-stabilized PE rattan weave that prevents color fading and material degradation with a powder-coated aluminum frame that resists rusting even when exposed to persistent rain, ensuring year-round durability without seasonal storage requirements.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 462,
+  "fields": {
+    "product": 166,
+    "text": "Contemporary mixed gray rattan weave with light beige cushions creates a sophisticated neutral palette that harmonizes with any garden setting, while providing greater stain resistance and showing less dirt compared to darker or lighter single-color alternatives.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 463,
+  "fields": {
+    "product": 166,
+    "text": "Practical design features include 12cm thick shower-proof cushions with removable machine-washable covers for easy maintenance, plus three versatile ottomans that function as footrests, extra seating, or occasional tables for maximum entertainment flexibility.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 464,
+  "fields": {
+    "product": 145,
+    "text": "Advanced 24.2 megapixel APS-C CMOS sensor with exceptional low-light performance captures intricate details and vibrant colors even in challenging lighting conditions, while the powerful image processor enables continuous shooting at 6 frames per second.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 465,
+  "fields": {
+    "product": 145,
+    "text": "Versatile lens package includes 18-55mm standard zoom for everyday photography and 55-250mm telephoto zoom for distant subjects, giving photographers complete coverage from wide-angle landscapes to detailed wildlife shots without additional purchases.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 466,
+  "fields": {
+    "product": 145,
+    "text": "Professional-grade 4K video recording at 30fps with dedicated microphone input creates cinema-quality footage, while the fully articulating touchscreen display enables creative composition from any angle including self-recording for vlogging and content creation.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 467,
+  "fields": {
+    "product": 145,
+    "text": "Built-in Wi-Fi and Bluetooth connectivity enables instant image transfer to smartphones or tablets for immediate social media sharing, remote shooting control via companion app, and automatic location tagging to organize your photo collection.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 468,
+  "fields": {
+    "product": 160,
+    "text": "Advanced polarized lens technology filters horizontal light waves to eliminate 99.9% of glare from reflective surfaces like water, snow, and roads, dramatically improving visual clarity and reducing eye strain during outdoor activities in bright conditions.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 469,
+  "fields": {
+    "product": 160,
+    "text": "Comprehensive UV400 protection blocks 100% of harmful UVA/UVB/UVC rays and blue light up to 400 nanometers, effectively preventing long-term eye damage including cataracts and macular degeneration while reducing eye fatigue during extended outdoor exposure.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 470,
+  "fields": {
+    "product": 160,
+    "text": "Aerodynamic TR90 frame construction combines exceptional flexibility and durability weighing just 23 grams, featuring integrated ventilation channels that prevent fogging during high-intensity activities while providing secure fit without uncomfortable pressure points.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 471,
+  "fields": {
+    "product": 160,
+    "text": "Performance-enhancing design elements include hydrophilic rubber nose pads and temple grips that actually increase adhesion when exposed to perspiration, ensuring the sunglasses remain precisely positioned during running, cycling, fishing, and other active pursuits.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 472,
+  "fields": {
+    "product": 155,
+    "text": "Innovative self-generating power system produces electricity through your workout motion, eliminating the need for power outlets or batteries and allowing flexible placement anywhere in your home without concerning yourself with proximity to electrical sockets.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 473,
+  "fields": {
+    "product": 155,
+    "text": "Biomechanically engineered 18.5-inch stride length accommodates users of all heights for natural walking and running motions, while the front-drive design with precision flywheel creates exceptionally smooth, whisper-quiet operation that won't disturb family members.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 474,
+  "fields": {
+    "product": 155,
+    "text": "Professional-grade construction with commercial components supports users up to 180kg (400 lbs), featuring a heavy-duty steel frame, oversized foot pedals with non-slip surfaces, and multi-position handgrips for comfortable training sessions of any duration.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 475,
+  "fields": {
+    "product": 155,
+    "text": "Comprehensive digital console displays essential workout metrics while offering 24 resistance levels and 12 pre-programmed workouts including heart rate control, interval training, and customizable user programs to continually challenge your fitness progression.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 476,
+  "fields": {
+    "product": 150,
+    "text": "Commercial-grade construction with heavy-duty steel frame supports an impressive 600kg maximum weight capacity, accommodating even the most intense barbell exercises while providing stability and confidence during challenging strength training sessions.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 477,
+  "fields": {
+    "product": 150,
+    "text": "Versatile 7-position backrest adjustment system ranging from -15° decline to 85° upright enables targeted muscle development through varied exercise angles, effectively transforming a single piece of equipment into multiple training stations for comprehensive workouts.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 478,
+  "fields": {
+    "product": 150,
+    "text": "Integrated leg developer attachment with adjustable foam rollers isolates and strengthens quadriceps, hamstrings, and glutes, while the removable preacher curl pad facilitates focused bicep training to complete your strength development routine.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 479,
+  "fields": {
+    "product": 150,
+    "text": "Extra-wide stable base with non-slip rubber feet prevents movement or tipping during intense exercise, complemented by 5cm thick high-density padding with tear-resistant faux leather covering that withstands years of heavy use.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 480,
+  "fields": {
+    "product": 165,
+    "text": "Industry-leading active noise cancellation technology utilizes eight microphones and advanced algorithms to continuously sample environmental sound 50,000 times per second, effectively eliminating up to 95% of external noise for immersive listening in any environment.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 481,
+  "fields": {
+    "product": 165,
+    "text": "Hi-Resolution Audio certification guarantees exceptional sound reproduction with extended high frequencies up to 40kHz, revealing subtle musical details typically lost in compressed audio while custom-tuned 40mm neodymium drivers deliver powerful bass without distortion.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 482,
+  "fields": {
+    "product": 165,
+    "text": "Remarkable battery efficiency provides 30 hours of wireless playback with noise cancellation activated, complemented by quick-charge technology that delivers 5 hours of listening time from just 10 minutes of charging through the USB-C port.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 483,
+  "fields": {
+    "product": 165,
+    "text": "Premium comfort features include memory foam ear cushions covered in protein leather that create perfect acoustic seal while distributing pressure evenly, adjustable headband with precise sizing mechanism, and swivel earcups that fold flat for compact travel storage.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 516,
+  "fields": {
+    "product": 162,
+    "text": "Legendary aviator design first created in 1937 for military pilots features the distinctive teardrop shape that has transcended decades of changing fashion trends, remaining an iconic accessory worn by cultural influencers, celebrities, and style enthusiasts worldwide.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 517,
+  "fields": {
+    "product": 162,
+    "text": "Precision-engineered metal frame constructed from lightweight yet durable alloy maintains perfect shape retention, complemented by adjustable silicone nose pads that provide customized fit without pressure points for all-day wearing comfort.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 518,
+  "fields": {
+    "product": 162,
+    "text": "Premium G-15 crystal glass lenses deliver exceptional optical clarity with distortion-free vision while blocking 85% of visible light and providing 100% protection against harmful UVA/UVB rays, available in polarized options for enhanced glare reduction.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 519,
+  "fields": {
+    "product": 162,
+    "text": "Authentic Ray-Ban craftsmanship evidenced by precisely etched logo on right lens and distinctive metal temple design, accompanied by genuine leather case, microfiber cleaning cloth, and certificate of authenticity confirming genuine Ray-Ban quality.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 560,
+  "fields": {
+    "product": 140,
+    "text": "Sumptuous velvet upholstery available in multiple contemporary colors offers both luxurious touch and visual appeal, transforming your living space with its elegant presence while being surprisingly easy to maintain.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 561,
+  "fields": {
+    "product": 140,
+    "text": "Extra-deep 53cm seating depth provides exceptional comfort for relaxation, allowing you to sink in while maintaining proper support for your back and offering ample space to curl up with a book or movie.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 562,
+  "fields": {
+    "product": 140,
+    "text": "Robust hardwood frame construction with reinforced corner blocks ensures lasting durability and stability, preventing sagging even after years of regular use while supporting up to 300kg of distributed weight.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 563,
+  "fields": {
+    "product": 140,
+    "text": "Compact yet generous 175cm width makes this sofa perfect for apartments or smaller living rooms, comfortably seating three adults without overwhelming your space or compromising on style and comfort.",
+    "order": 3
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 564,
+  "fields": {
+    "product": 187,
+    "text": "Silent belt drive system utilizing automotive-grade components operates virtually silently at all resistance levels and cadences, allowing early morning or late night workouts without disturbing sleeping family members or neighbors in adjacent apartments.",
+    "order": 0
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 565,
+  "fields": {
+    "product": 187,
+    "text": "Ergonomically designed silicone-wrapped handles remain cool during stovetop cooking while providing secure grip even with wet hands, complemented by precisely fitted tempered glass lids featuring steam vents to prevent boil-over during intense cooking.",
+    "order": 1
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 566,
+  "fields": {
+    "product": 187,
+    "text": "Voice control compatibility works seamlessly with Alexa and Google Assistant, allowing you to search content, adjust volume, change inputs, and control smart home devices through simple voice commands without reaching for the remote.",
+    "order": 2
+  }
+},
+{
+  "model": "api.productfeature",
+  "pk": 567,
+  "fields": {
+    "product": 187,
+    "text": "Universal compatibility with all cooktop types including induction, gas, electric and ceramic surfaces ensures seamless integration with your kitchen, while oven-safe construction to 450°F allows transfer from stovetop to oven for finishing recipes.",
+    "order": 3
+  }
+},
+{
+  "model": "api.cart",
+  "pk": 1,
+  "fields": {
+    "customer": 1,
+    "created_at": "2025-05-14T10:40:31.530Z",
+    "updated_at": "2025-05-14T10:40:31.530Z"
+  }
+},
+{
+  "model": "api.cart",
+  "pk": 2,
+  "fields": {
+    "customer": 3,
+    "created_at": "2025-05-14T11:31:19.302Z",
+    "updated_at": "2025-05-14T11:31:19.302Z"
+  }
+},
+{
+  "model": "api.cart",
+  "pk": 3,
+  "fields": {
+    "customer": 4,
+    "created_at": "2025-05-26T12:01:06.260Z",
+    "updated_at": "2025-05-26T12:01:06.260Z"
+  }
+},
+{
+  "model": "api.cart",
+  "pk": 4,
+  "fields": {
+    "customer": 5,
+    "created_at": "2025-05-26T12:51:46.411Z",
+    "updated_at": "2025-05-26T12:51:46.411Z"
+  }
+},
+{
+  "model": "api.cart",
+  "pk": 5,
+  "fields": {
+    "customer": 6,
+    "created_at": "2025-05-26T13:06:18.628Z",
+    "updated_at": "2025-05-26T13:06:18.628Z"
+  }
+},
+{
+  "model": "api.cartitem",
+  "pk": 9,
+  "fields": {
+    "cart": 2,
+    "product": 141,
+    "quantity": 1,
+    "added_at": "2025-05-14T11:31:32.752Z",
+    "updated_at": "2025-05-14T11:31:32.752Z"
+  }
+},
+{
+  "model": "api.cartitem",
+  "pk": 10,
+  "fields": {
+    "cart": 2,
+    "product": 154,
+    "quantity": 2,
+    "added_at": "2025-05-14T11:52:29.031Z",
+    "updated_at": "2025-05-14T12:05:44.302Z"
+  }
+},
+{
+  "model": "api.cartitem",
+  "pk": 11,
+  "fields": {
+    "cart": 2,
+    "product": 149,
+    "quantity": 1,
+    "added_at": "2025-05-14T12:11:12.686Z",
+    "updated_at": "2025-05-14T12:11:12.686Z"
+  }
+},
+{
+  "model": "api.cartitem",
+  "pk": 12,
+  "fields": {
+    "cart": 2,
+    "product": 157,
+    "quantity": 1,
+    "added_at": "2025-05-14T12:13:48.124Z",
+    "updated_at": "2025-05-14T12:13:48.124Z"
+  }
+},
+{
+  "model": "api.cartitem",
+  "pk": 13,
+  "fields": {
+    "cart": 2,
+    "product": 164,
+    "quantity": 14,
+    "added_at": "2025-05-14T12:28:17.695Z",
+    "updated_at": "2025-05-14T12:34:47.555Z"
+  }
+},
+{
+  "model": "api.cartitem",
+  "pk": 69,
+  "fields": {
+    "cart": 1,
+    "product": 148,
+    "quantity": 3,
+    "added_at": "2025-06-23T17:35:30.908Z",
+    "updated_at": "2025-06-23T17:35:30.908Z"
+  }
+},
+{
+  "model": "api.cartitem",
+  "pk": 70,
+  "fields": {
+    "cart": 1,
+    "product": 153,
+    "quantity": 1,
+    "added_at": "2025-06-23T17:51:48.554Z",
+    "updated_at": "2025-06-23T17:51:48.554Z"
+  }
+},
+{
+  "model": "api.cartitem",
+  "pk": 71,
+  "fields": {
+    "cart": 3,
+    "product": 164,
+    "quantity": 2,
+    "added_at": "2026-02-20T14:25:27.975Z",
+    "updated_at": "2026-02-20T14:25:27.975Z"
+  }
+},
+{
+  "model": "api.cartitem",
+  "pk": 72,
+  "fields": {
+    "cart": 1,
+    "product": 150,
+    "quantity": 2,
+    "added_at": "2026-02-22T10:47:17.081Z",
+    "updated_at": "2026-02-22T10:47:17.081Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 52,
+  "fields": {
+    "product": 141,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "Amazing picture quality and smart features. Setup was straightforward and the borderless design looks elegant in my entertainment center. Highly recommend for anyone upgrading to 4K.",
+    "rating": 5,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 53,
+  "fields": {
+    "product": 142,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "Great induction-compatible pans with excellent heat distribution. The non-stick coating works beautifully - even delicate foods like eggs slide right off without any oil.",
+    "rating": 4,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 54,
+  "fields": {
+    "product": 143,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "The color-coding system is perfect for keeping food preparation hygienic. Boards are durable and dishwasher safe. Only giving 4 stars because the storage stand takes up a bit more counter space than expected.",
+    "rating": 4,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 55,
+  "fields": {
+    "product": 144,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "This L-shaped sofa bed has been a game-changer for our guest room. The pull-out mechanism is smooth and the bed is surprisingly comfortable. Storage space is ample for all our extra bedding.",
+    "rating": 5,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 56,
+  "fields": {
+    "product": 145,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "Perfect kit for moving from smartphone photography to DSLR. The 24.2MP sensor captures incredible detail and the two lenses cover most shooting scenarios. Autofocus is fast and accurate.",
+    "rating": 5,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 57,
+  "fields": {
+    "product": 146,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "This drone captures breathtaking aerial footage with its stabilized 4K camera. Controls are intuitive even for beginners, and the battery life is impressive. Worth every penny for the quality.",
+    "rating": 5,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 58,
+  "fields": {
+    "product": 147,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "Gaming has never been better! The graphics are mind-blowing and loading times are practically non-existent. Controller haptic feedback adds an incredible dimension to gameplay.",
+    "rating": 5,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 59,
+  "fields": {
+    "product": 148,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "Our garden is transformed with this rattan set! The ice cooler table is ingenious for summer entertaining. Cushions are comfortable and the build quality feels substantial. Cover fits perfectly.",
+    "rating": 4,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 60,
+  "fields": {
+    "product": 149,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "This cookware set has everything needed for daily cooking. Heat-resistant handles are a thoughtful safety feature and the non-stick coating performs well. Good value for a complete set.",
+    "rating": 4,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 61,
+  "fields": {
+    "product": 150,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "Extremely solid weight bench that gives me confidence when lifting heavy. The 600kg capacity is impressive and the various incline positions make it versatile for different exercises.",
+    "rating": 5,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 62,
+  "fields": {
+    "product": 151,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "Perfect laptop bag for my daily commute. The padding provides excellent protection and there are enough pockets to organize all my accessories. Shoulder strap is comfortable even when fully loaded.",
+    "rating": 4,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 63,
+  "fields": {
+    "product": 152,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "Beautiful stoneware dinner set that elevates our everyday meals. Each piece has subtle variations in the glaze that give it a handcrafted look. Plates are the perfect size and weight.",
+    "rating": 5,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 64,
+  "fields": {
+    "product": 153,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "This MacBook Pro handles everything I throw at it with ease. The Retina display is stunning for photo editing, and the battery easily lasts through my workday. Worth the investment for professionals.",
+    "rating": 5,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 65,
+  "fields": {
+    "product": 154,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "Excellent quality suit that fits perfectly after minimal tailoring. The wool blend fabric is comfortable for all-day wear and resists wrinkles well. Looks much more expensive than it is.",
+    "rating": 5,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 66,
+  "fields": {
+    "product": 155,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "This cross trainer delivers a gym-quality workout at home. The self-powered feature means no awkward cord placement and the magnetic resistance is whisper quiet. Stride length is comfortable for my 6ft height.",
+    "rating": 5,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 67,
+  "fields": {
+    "product": 156,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "Perfect dining set for our patio. The table is sturdy and the chairs are surprisingly comfortable. Assembly was straightforward and the umbrella hole is a thoughtful addition for sunny days.",
+    "rating": 4,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 68,
+  "fields": {
+    "product": 157,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "The cream color brightens our living room and the jumbo cord fabric is so soft and cozy. Cushions have kept their shape well despite daily use. Very happy with this corner sofa purchase.",
+    "rating": 5,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 69,
+  "fields": {
+    "product": 158,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "Game-changing office chair for my home office setup. The multiple adjustment points allow for perfect ergonomic positioning and the mesh back keeps me cool during long work sessions.",
+    "rating": 5,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 70,
+  "fields": {
+    "product": 160,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "These polarized sunglasses make a huge difference for outdoor activities. No more squinting in bright conditions and they stay put during runs. Lightweight but feel durable.",
+    "rating": 4,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 71,
+  "fields": {
+    "product": 161,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "The color-coded board makes it easy to target specific muscle groups and the counter keeps me motivated during workouts. Compact enough to store easily but sturdy during use. Great addition to my home gym.",
+    "rating": 5,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 72,
+  "fields": {
+    "product": 162,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "Classic Aviator style that never goes out of fashion. The build quality is excellent and the lenses provide crystal clear vision with great UV protection. Worth paying more for authentic Ray-Bans.",
+    "rating": 5,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 73,
+  "fields": {
+    "product": 163,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "The blue lenses give these Clubmasters a modern twist on the classic design. They complement almost any outfit and the quality is what you would expect from Ray-Ban. Very satisfied with this purchase.",
+    "rating": 5,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 74,
+  "fields": {
+    "product": 164,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "Fantastic indoor bike that rivals the ones at my local gym. The LCD display helps track my progress and the resistance levels provide plenty of challenge. Seat is actually comfortable unlike most spin bikes.",
+    "rating": 5,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 75,
+  "fields": {
+    "product": 165,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "These headphones have transformed my commute. The noise cancellation is impressive - I can barely hear the train noise anymore. Sound quality is rich and detailed, and the battery life easily lasts all week.",
+    "rating": 5,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 76,
+  "fields": {
+    "product": 166,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "This rattan set has made our garden the favorite gathering spot for family and friends. The 9-seater configuration is perfect for entertaining and the mixed grey color looks sophisticated.",
+    "rating": 4,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 77,
+  "fields": {
+    "product": 173,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "Interesting product with some unique features. Quality seems decent but I expected more functionality for the price. Customer service was helpful when I had questions about setup.",
+    "rating": 3,
+    "created_at": "2025-05-16T09:34:37Z",
+    "updated_at": "2025-05-16T09:34:37Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 78,
+  "fields": {
+    "product": 140,
+    "user": [
+      "john@gmail.com"
+    ],
+    "text": "Comment: This velvet sofa exceeded my expectations! The deep seating is incredibly comfortable and the quality of the upholstery is outstanding. Perfect size for my apartment living room.",
+    "rating": 5,
+    "created_at": "2025-05-16T09:48:15.707Z",
+    "updated_at": "2025-05-16T09:48:15.707Z"
+  }
+},
+{
+  "model": "api.comment",
+  "pk": 83,
+  "fields": {
+    "product": 187,
+    "user": [
+      "test-user@easy-store.com"
+    ],
+    "text": "amazing product",
+    "rating": 3,
+    "created_at": "2025-05-26T21:57:43.798Z",
+    "updated_at": "2025-05-26T21:57:43.798Z"
+  }
+},
+{
+  "model": "api.bookmark",
+  "pk": 11,
+  "fields": {
+    "customer": 1,
+    "product": 142,
+    "created_at": "2025-05-16T14:02:33.188Z"
+  }
+},
+{
+  "model": "api.bookmark",
+  "pk": 13,
+  "fields": {
+    "customer": 1,
+    "product": 147,
+    "created_at": "2025-05-16T14:02:37.873Z"
+  }
+},
+{
+  "model": "api.bookmark",
+  "pk": 17,
+  "fields": {
+    "customer": 1,
+    "product": 163,
+    "created_at": "2025-05-16T14:03:35.322Z"
+  }
+},
+{
+  "model": "api.bookmark",
+  "pk": 23,
+  "fields": {
+    "customer": 1,
+    "product": 151,
+    "created_at": "2025-05-17T12:11:46.623Z"
+  }
+},
+{
+  "model": "api.bookmark",
+  "pk": 26,
+  "fields": {
+    "customer": 1,
+    "product": 156,
+    "created_at": "2025-05-20T08:21:57.826Z"
+  }
+},
+{
+  "model": "api.bookmark",
+  "pk": 27,
+  "fields": {
+    "customer": 1,
+    "product": 164,
+    "created_at": "2025-05-23T18:36:09.761Z"
+  }
+},
+{
+  "model": "api.bookmark",
+  "pk": 30,
+  "fields": {
+    "customer": 4,
+    "product": 158,
+    "created_at": "2025-05-26T18:13:23.338Z"
+  }
+},
+{
+  "model": "api.bookmark",
+  "pk": 31,
+  "fields": {
+    "customer": 4,
+    "product": 187,
+    "created_at": "2025-05-26T21:12:18.466Z"
+  }
+},
+{
+  "model": "api.bookmark",
+  "pk": 32,
+  "fields": {
+    "customer": 4,
+    "product": 164,
+    "created_at": "2025-05-26T21:12:19.548Z"
+  }
+},
+{
+  "model": "api.bookmark",
+  "pk": 33,
+  "fields": {
+    "customer": 4,
+    "product": 154,
+    "created_at": "2025-05-26T21:12:20.730Z"
+  }
+},
+{
+  "model": "api.bookmark",
+  "pk": 34,
+  "fields": {
+    "customer": 4,
+    "product": 166,
+    "created_at": "2025-05-26T21:12:56.314Z"
+  }
+},
+{
+  "model": "api.bookmark",
+  "pk": 35,
+  "fields": {
+    "customer": 4,
+    "product": 151,
+    "created_at": "2025-05-26T21:12:58.963Z"
+  }
+},
+{
+  "model": "api.bookmark",
+  "pk": 36,
+  "fields": {
+    "customer": 1,
+    "product": 148,
+    "created_at": "2026-02-21T09:14:26.246Z"
+  }
+},
+{
+  "model": "api.order",
+  "pk": 27,
+  "fields": {
+    "customer": 1,
+    "status": "pending",
+    "session_id": "cs_test_b1XmyPQF7GYikeZZkiYmtc9e8fXlhYpBmNX9BrvmaEOGbc9sCqf0gPk93T",
+    "total_amount": "1179.96",
+    "shipping_address": "{}",
+    "billing_address": "{'city': None, 'country': 'GB', 'line1': None, 'line2': None, 'postal_code': 'BR87PS', 'state': None}",
+    "payment_method": "card",
+    "payment_status": "completed",
+    "tracking_number": null,
+    "created_at": "2025-05-18T13:10:25.414Z",
+    "updated_at": "2025-05-18T13:10:25.414Z"
+  }
+},
+{
+  "model": "api.order",
+  "pk": 28,
+  "fields": {
+    "customer": 1,
+    "status": "processing",
+    "session_id": "cs_test_b1bQRJb2UTKqjN0ba6oC5wfUYrCEL7nAzKmHlgTQEksuB3PGVtT2YwDAD8",
+    "total_amount": "7159.90",
+    "shipping_address": "{}",
+    "billing_address": "{'city': None, 'country': 'GB', 'line1': None, 'line2': None, 'postal_code': 'BR87PS', 'state': None}",
+    "payment_method": "card",
+    "payment_status": "completed",
+    "tracking_number": null,
+    "created_at": "2025-05-18T17:23:33.385Z",
+    "updated_at": "2025-05-18T17:23:33.385Z"
+  }
+},
+{
+  "model": "api.order",
+  "pk": 29,
+  "fields": {
+    "customer": 4,
+    "status": "processing",
+    "session_id": "cs_test_b1vyHbtkSX54GoPw8xEzyNAwVrjiaenKIlMPWNyNmmsX6pUn8lTEKHaiLW",
+    "total_amount": "16599.90",
+    "shipping_address": "{}",
+    "billing_address": "{'city': None, 'country': 'GB', 'line1': None, 'line2': None, 'postal_code': 'BR87PS', 'state': None}",
+    "payment_method": "card",
+    "payment_status": "completed",
+    "tracking_number": null,
+    "created_at": "2025-05-27T10:28:43.486Z",
+    "updated_at": "2025-05-27T10:28:43.486Z"
+  }
+},
+{
+  "model": "api.order",
+  "pk": 30,
+  "fields": {
+    "customer": 4,
+    "status": "processing",
+    "session_id": "cs_test_b1KschdHQUSHHDbsQ806K5TOVf4ajSPPSqOSDLZTFTxik9gshErLd06xP3",
+    "total_amount": "3587.86",
+    "shipping_address": "{}",
+    "billing_address": "{'city': None, 'country': 'GB', 'line1': None, 'line2': None, 'postal_code': 'BR87PS', 'state': None}",
+    "payment_method": "card",
+    "payment_status": "completed",
+    "tracking_number": null,
+    "created_at": "2025-06-01T09:07:38.318Z",
+    "updated_at": "2025-06-01T09:07:38.318Z"
+  }
+},
+{
+  "model": "api.order",
+  "pk": 31,
+  "fields": {
+    "customer": 1,
+    "status": "processing",
+    "session_id": "cs_test_b13DQbrzDp5LLGpaku86zEfVUSqJUHkijZtHY2FUXWKDKIXpXe1x0jy78D",
+    "total_amount": "6099.95",
+    "shipping_address": "{}",
+    "billing_address": "{'city': None, 'country': 'GB', 'line1': None, 'line2': None, 'postal_code': 'BR87PS', 'state': None}",
+    "payment_method": "card",
+    "payment_status": "completed",
+    "tracking_number": null,
+    "created_at": "2025-06-01T09:09:02.570Z",
+    "updated_at": "2025-06-01T09:09:02.570Z"
+  }
+},
+{
+  "model": "api.order",
+  "pk": 32,
+  "fields": {
+    "customer": 1,
+    "status": "processing",
+    "session_id": "cs_test_b1Jx3Mej4HNGdhXS6d7eO0a0KVKYQ7BgKOQTjrT1MfTZYdcqg9qqoJhepi",
+    "total_amount": "1389.95",
+    "shipping_address": "{}",
+    "billing_address": "{'city': None, 'country': 'GB', 'line1': None, 'line2': None, 'postal_code': 'BR87PS', 'state': None}",
+    "payment_method": "card",
+    "payment_status": "completed",
+    "tracking_number": null,
+    "created_at": "2025-06-01T09:10:27.019Z",
+    "updated_at": "2025-06-01T09:10:27.019Z"
+  }
+},
+{
+  "model": "api.orderitem",
+  "pk": 22,
+  "fields": {
+    "order": 27,
+    "product": 154,
+    "product_name": "Men's Formal Suit",
+    "product_price": "299.99",
+    "quantity": 2
+  }
+},
+{
+  "model": "api.orderitem",
+  "pk": 23,
+  "fields": {
+    "order": 27,
+    "product": 164,
+    "product_name": "Indoor Cycling Bike",
+    "product_price": "289.99",
+    "quantity": 2
+  }
+},
+{
+  "model": "api.orderitem",
+  "pk": 24,
+  "fields": {
+    "order": 28,
+    "product": 153,
+    "product_name": "MacBook Pro",
+    "product_price": "1999.99",
+    "quantity": 2
+  }
+},
+{
+  "model": "api.orderitem",
+  "pk": 25,
+  "fields": {
+    "order": 28,
+    "product": 154,
+    "product_name": "Men's Formal Suit",
+    "product_price": "299.99",
+    "quantity": 2
+  }
+},
+{
+  "model": "api.orderitem",
+  "pk": 26,
+  "fields": {
+    "order": 28,
+    "product": 156,
+    "product_name": "Patio Dining Set",
+    "product_price": "649.99",
+    "quantity": 3
+  }
+},
+{
+  "model": "api.orderitem",
+  "pk": 27,
+  "fields": {
+    "order": 28,
+    "product": 163,
+    "product_name": "Ray-Ban Clubmaster",
+    "product_price": "159.99",
+    "quantity": 2
+  }
+},
+{
+  "model": "api.orderitem",
+  "pk": 28,
+  "fields": {
+    "order": 28,
+    "product": 164,
+    "product_name": "Indoor Cycling Bike",
+    "product_price": "289.99",
+    "quantity": 1
+  }
+},
+{
+  "model": "api.orderitem",
+  "pk": 29,
+  "fields": {
+    "order": 29,
+    "product": 153,
+    "product_name": "MacBook Pro",
+    "product_price": "1999.99",
+    "quantity": 8
+  }
+},
+{
+  "model": "api.orderitem",
+  "pk": 30,
+  "fields": {
+    "order": 29,
+    "product": 154,
+    "product_name": "Men's Formal Suit",
+    "product_price": "299.99",
+    "quantity": 2
+  }
+},
+{
+  "model": "api.orderitem",
+  "pk": 31,
+  "fields": {
+    "order": 30,
+    "product": 145,
+    "product_name": "DSLR Camera Kit",
+    "product_price": "899.99",
+    "quantity": 3
+  }
+},
+{
+  "model": "api.orderitem",
+  "pk": 32,
+  "fields": {
+    "order": 30,
+    "product": 149,
+    "product_name": "Kitchen Cookware Set",
+    "product_price": "159.99",
+    "quantity": 1
+  }
+},
+{
+  "model": "api.orderitem",
+  "pk": 33,
+  "fields": {
+    "order": 30,
+    "product": 154,
+    "product_name": "Men's Formal Suit",
+    "product_price": "299.99",
+    "quantity": 1
+  }
+},
+{
+  "model": "api.orderitem",
+  "pk": 34,
+  "fields": {
+    "order": 30,
+    "product": 160,
+    "product_name": "Polarised Sports Sunglasses",
+    "product_price": "59.99",
+    "quantity": 1
+  }
+},
+{
+  "model": "api.orderitem",
+  "pk": 35,
+  "fields": {
+    "order": 30,
+    "product": 187,
+    "product_name": "hello drone",
+    "product_price": "45.99",
+    "quantity": 8
+  }
+},
+{
+  "model": "api.orderitem",
+  "pk": 36,
+  "fields": {
+    "order": 31,
+    "product": 151,
+    "product_name": "Laptop Bag",
+    "product_price": "49.99",
+    "quantity": 2
+  }
+},
+{
+  "model": "api.orderitem",
+  "pk": 37,
+  "fields": {
+    "order": 31,
+    "product": 153,
+    "product_name": "MacBook Pro",
+    "product_price": "1999.99",
+    "quantity": 3
+  }
+},
+{
+  "model": "api.orderitem",
+  "pk": 38,
+  "fields": {
+    "order": 32,
+    "product": 141,
+    "product_name": "4K Smart TV",
+    "product_price": "749.99",
+    "quantity": 1
+  }
+},
+{
+  "model": "api.orderitem",
+  "pk": 39,
+  "fields": {
+    "order": 32,
+    "product": 149,
+    "product_name": "Kitchen Cookware Set",
+    "product_price": "159.99",
+    "quantity": 4
+  }
+}
+]

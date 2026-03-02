@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+django-api = "*"
+cloudinary = "*"
+python-dotenv = "*"
+stripe = "*"
+awscli = "*"
+awsebcli = "*"
+pymysql = "==1.1.0"
+psycopg2-binary = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"

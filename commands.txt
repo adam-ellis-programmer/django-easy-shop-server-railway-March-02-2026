@@ -1,0 +1,10 @@
+ pipenv run python manage.py dumpdata --natural-foreign --natural-primary --exclude=contenttypes --exclude=auth.permission --indent=2 > data_backup.json
+
+ pipenv run python manage.py loaddata data_backup.json
+
+ pipenv requirements > requirements.txt
+
+ pipenv install psycopg2-binary  
+
+
+ 

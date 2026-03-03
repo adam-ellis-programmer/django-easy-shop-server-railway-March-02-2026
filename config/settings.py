@@ -113,7 +113,7 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = False  # Changed to False for better security
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
-    'https://django-easy-shop-vercel-frontend-ma.vercel.app',
+    'https://django-easy-shop-vercel-frontend-ma.vercel.app',  # new supabase url
     "http://localhost:5173",                # Local development
     "https://easy-shop.biz",                # Your main domain (HTTPS)
     "https://api.easy-shop.biz",            # ADDED: Your API domain
@@ -123,9 +123,7 @@ CORS_ALLOWED_ORIGINS = [
 
 # UPDATED: CSRF settings for cross-subdomain support
 # CHANGED: From 'Lax' to 'None' for cross-subdomain
-CSRF_COOKIE_SAMESITE = 'None'
-CSRF_COOKIE_SECURE = True           # Keep True for HTTPS
-CSRF_COOKIE_DOMAIN = '.easy-shop.biz'  # ADDED: Share cookies across subdomains
+
 
 # CSRF_TRUSTED_ORIGINS — tells Django "trust CSRF tokens coming from
 # these domains". Without this, Django rejects POST/PUT/DELETE requests
@@ -141,7 +139,7 @@ CSRF_TRUSTED_ORIGINS = [
     'https://api.easy-shop.biz',            # Your API domain
     'https://www.easy-shop.biz',            # WWW version
     'https://django-shop-frontend.vercel.app',  # Backup
-    'https://django-easy-shop-vercel-frontend-ma.vercel.app',
+    'https://django-easy-shop-vercel-frontend-ma.vercel.app',  # new supabase project url
 ]
 CSRF_USE_SESSIONS = False     # Store CSRF token in cookie, not session
 
@@ -161,12 +159,6 @@ REST_FRAMEWORK = {
     ],
 }
 
-# UPDATED: Session cookies for cross-subdomain support
-# CHANGED: From 'Lax' to 'None' for cross-subdomain
-SESSION_COOKIE_SAMESITE = 'None'
-SESSION_COOKIE_SECURE = True        # Keep True for HTTPS
-# ADDED: Share cookies across subdomains
-SESSION_COOKIE_DOMAIN = '.easy-shop.biz'
 
 # Common session-related settings in settings.py
 SESSION_COOKIE_AGE = 1209600  # 2 weeks in seconds (default)
@@ -280,3 +272,16 @@ else:
     SESSION_COOKIE_SECURE = True
     SESSION_COOKIE_SAMESITE = 'None'
     SESSION_COOKIE_DOMAIN = None    # None lets Railway set it on .railway.app
+
+
+# notes
+# ^^^^^
+
+# if DEBUG:
+#     CSRF_COOKIE_SAMESITE = 'Lax'    # relaxed, same-site only needed locally
+#     CSRF_COOKIE_SECURE = False       # HTTP is fine on localhost
+#     CSRF_COOKIE_DOMAIN = None        # no restriction, localhost can set cookies
+# else:
+#     CSRF_COOKIE_SAMESITE = 'None'    # must be None for cross-domain (vercel→railway)
+#     CSRF_COOKIE_SECURE = True        # required whenever SameSite=None
+#     CSRF_COOKIE_DOMAIN = None        # lets railway.app scope the cookie correctly

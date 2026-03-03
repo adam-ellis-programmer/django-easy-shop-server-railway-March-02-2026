@@ -1,0 +1,44 @@
+CSRF_COOKIE_SECURE
+^^^^^^^^^^^^^^^^^^
+Controls whether the cookie is only sent over HTTPS.
+pythonCSRF_COOKIE_SECURE = True   # cookie only sent over HTTPS (production)
+CSRF_COOKIE_SECURE = False  # cookie sent over HTTP too (local dev)
+You need False locally because localhost uses HTTP. In production it
+ must be True to prevent the cookie being intercepted over plain HTTP.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+CSRF_COOKIE_SAMESITE
+^^^^^^^^^^^^^^^^^^^^
+Controls when the browser is allowed to send the cookie with a request.
+python'Strict'  # only sent on same-site requests
+'Lax'     # sent on same-site + top-level navigations (browser default)
+'None'    # sent on ALL requests including cross-site
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+CSRF_COOKIE_SAMESITE
+^^^^^^^^^^^^^^^^^^^^
+Controls when the browser is allowed to send the cookie with a request.
+python'Strict'  # only sent on same-site requests
+'Lax'     # sent on same-site + top-level navigations (browser default)
+'None'    # sent on ALL requests including cross-site
+
+You need 'None' in production because your frontend (vercel.app) and backend (railway.app) 
+are different domains — without it the browser simply refuses to send the cookie cross-site. 
+But SameSite=None requires Secure=True, which is why both settings are paired together.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+CSRF_COOKIE_DOMAIN
+^^^^^^^^^^^^^^^^^^
+Controls which domains the cookie is valid for.
+pythonCSRF_COOKIE_DOMAIN = '.easy-shop.biz'  
+# cookie works on easy-shop.biz AND api.easy-shop.biz
+# the leading dot means ALL subdomains
+
+CSRF_COOKIE_DOMAIN = None  
+# cookie is scoped to whatever domain set it
+# railway.app sets it → valid on railway.app
+# localhost sets it → valid on localhost
+You had .easy-shop.biz hardcoded at the top which was the main cause of your 403 errors — it meant cookies would only be set on that specific domain, so neither localhost nor railway.app could set or receive them.

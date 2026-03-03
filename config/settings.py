@@ -113,6 +113,7 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = False  # Changed to False for better security
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
+    'https://django-easy-shop-vercel-frontend-ma.vercel.app',
     "http://localhost:5173",                # Local development
     "https://easy-shop.biz",                # Your main domain (HTTPS)
     "https://api.easy-shop.biz",            # ADDED: Your API domain

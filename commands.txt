@@ -18,3 +18,7 @@ bashpipenv requirements > requirements.txt
 Railway can actually use Pipfile directly, but having a requirements.txt is more reliable and widely supported.
 
 
+start commmand in railway
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Added this to the railway start command so it runs the static files 
+python manage.py collectstatic --noinput && python manage.py migrate && gunicorn config.wsgi

@@ -126,12 +126,22 @@ CORS_ALLOWED_ORIGINS = [
 CSRF_COOKIE_SAMESITE = 'None'
 CSRF_COOKIE_SECURE = True           # Keep True for HTTPS
 CSRF_COOKIE_DOMAIN = '.easy-shop.biz'  # ADDED: Share cookies across subdomains
+
+# CSRF_TRUSTED_ORIGINS — tells Django "trust CSRF tokens coming from
+# these domains". Without this, Django rejects POST/PUT/DELETE requests
+# from your frontend as potentially forged.
+
+
+# CSRF_TRUSTED_ORIGINS — tells Django "trust CSRF tokens coming from these domains". Without this, Django rejects POST/PUT/DELETE requests from your frontend as potentially forged.
+# CORS_ALLOWED_ORIGINS — tells Django "allow browsers from these domains to make requests at all". This is the first gate.
+# SESSION_COOKIE_DOMAIN — controls which domain the session cookie is actually dropped on in the browser.
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost:5173',                # Local development
     'https://easy-shop.biz',                # Your main domain
     'https://api.easy-shop.biz',            # Your API domain
     'https://www.easy-shop.biz',            # WWW version
     'https://django-shop-frontend.vercel.app',  # Backup
+    'https://django-easy-shop-vercel-frontend-ma.vercel.app',
 ]
 CSRF_USE_SESSIONS = False     # Store CSRF token in cookie, not session
 
@@ -247,10 +257,26 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # Override for local development
+# if DEBUG:
+#     CSRF_COOKIE_SECURE = False
+#     CSRF_COOKIE_SAMESITE = 'Lax'
+#     CSRF_COOKIE_DOMAIN = None       # Don't restrict to a domain locally
+#     SESSION_COOKIE_SECURE = False
+#     SESSION_COOKIE_SAMESITE = 'Lax'
+#     SESSION_COOKIE_DOMAIN = None
+
+
 if DEBUG:
     CSRF_COOKIE_SECURE = False
     CSRF_COOKIE_SAMESITE = 'Lax'
-    CSRF_COOKIE_DOMAIN = None       # Don't restrict to a domain locally
+    CSRF_COOKIE_DOMAIN = None       # no restriction locally
     SESSION_COOKIE_SECURE = False
     SESSION_COOKIE_SAMESITE = 'Lax'
-    SESSION_COOKIE_DOMAIN = None
+    SESSION_COOKIE_DOMAIN = None    # no restriction locally
+else:
+    CSRF_COOKIE_SECURE = True
+    CSRF_COOKIE_SAMESITE = 'None'
+    CSRF_COOKIE_DOMAIN = None       # None lets Railway set it on .railway.app
+    SESSION_COOKIE_SECURE = True
+    SESSION_COOKIE_SAMESITE = 'None'
+    SESSION_COOKIE_DOMAIN = None    # None lets Railway set it on .railway.app

@@ -7,4 +7,14 @@
  pipenv install psycopg2-binary  
 
 
+This will install them and automatically add the pinned versions to your Pipfile and Pipfile.lock.
+ pipenv install gunicorn 
  
+
+
+Then regenerate your requirements.txt for Railway:
+bashpipenv requirements > requirements.txt
+
+Railway can actually use Pipfile directly, but having a requirements.txt is more reliable and widely supported.
+
+

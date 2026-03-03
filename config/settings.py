@@ -55,10 +55,14 @@ if not STRIPE_PUBLISHABLE_KEY:
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+
+# Django won't serve static files with DEBUG=False. Add WhiteNoise:
+DEBUG = os.environ.get('DEBUG', 'False') == 'True'
+
 
 # UPDATED: Add all your new domains
 ALLOWED_HOSTS = [
+    '.railway.app',
     'localhost',
     '127.0.0.1',
     '.elasticbeanstalk.com',
@@ -87,7 +91,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
 
-    # Your apps
+    # Our apps
     'api',
 ]
 
@@ -96,6 +100,7 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',  # Add this at the top
     # Other middleware...
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',  # add for white noise
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -231,7 +236,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
-# 
+#
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 

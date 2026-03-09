@@ -108,19 +108,22 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
+# ========/======
+# CORS settings
+# ========/======
 # UPDATED: CORS settings - added API subdomain
 CORS_ALLOW_ALL_ORIGINS = False  # Changed to False for better security
 CORS_ALLOW_CREDENTIALS = True
-CORS_ALLOWED_ORIGINS = [
-    'https://django-easy-shop-vercel-frontend-ma.vercel.app',  # new supabase url
-    "http://localhost:5173",                # Local development
-    "https://easy-shop.biz",                # Your main domain (HTTPS)
-    "https://api.easy-shop.biz",            # ADDED: Your API domain
-    "https://www.easy-shop.biz",            # WWW version (HTTPS)
-    "https://django-shop-frontend.vercel.app",  # Backup Vercel domain
-]
 
+#  CORS is for allowing frontend domains to make
+#  requests to the backend. The frontend lives
+#  on easy-shop.biz not api.easy-shop.biz.
+CORS_ALLOWED_ORIGINS = [
+    'https://easy-shop.biz',
+    'https://www.easy-shop.biz',
+    'http://localhost:5173',
+    'https://django-easy-shop-vercel-frontend-ma.vercel.app',  # keep as fallback
+]
 # UPDATED: CSRF settings for cross-subdomain support
 # CHANGED: From 'Lax' to 'None' for cross-subdomain
 
@@ -134,12 +137,10 @@ CORS_ALLOWED_ORIGINS = [
 # CORS_ALLOWED_ORIGINS — tells Django "allow browsers from these domains to make requests at all". This is the first gate.
 # SESSION_COOKIE_DOMAIN — controls which domain the session cookie is actually dropped on in the browser.
 CSRF_TRUSTED_ORIGINS = [
-    'http://localhost:5173',                # Local development
-    'https://easy-shop.biz',                # Your main domain
-    'https://api.easy-shop.biz',            # Your API domain
-    'https://www.easy-shop.biz',            # WWW version
-    'https://django-shop-frontend.vercel.app',  # Backup
-    'https://django-easy-shop-vercel-frontend-ma.vercel.app',  # new supabase project url
+    'https://easy-shop.biz',
+    'https://www.easy-shop.biz',
+    'http://localhost:5173',
+    'https://django-easy-shop-vercel-frontend-ma.vercel.app',  # keep as fallback
 ]
 CSRF_USE_SESSIONS = False     # Store CSRF token in cookie, not session
 
@@ -258,6 +259,27 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 #     SESSION_COOKIE_DOMAIN = None
 
 
+# ===========≠======
+# BEFORE SAME DOMAIN
+# ===========≠======
+# if DEBUG:
+#     CSRF_COOKIE_SECURE = False
+#     CSRF_COOKIE_SAMESITE = 'Lax'
+#     CSRF_COOKIE_DOMAIN = None       # no restriction locally
+#     SESSION_COOKIE_SECURE = False
+#     SESSION_COOKIE_SAMESITE = 'Lax'
+#     SESSION_COOKIE_DOMAIN = None    # no restriction locally
+# else:
+#     CSRF_COOKIE_SECURE = True
+#     CSRF_COOKIE_SAMESITE = 'None'
+#     CSRF_COOKIE_DOMAIN = None       # None lets Railway set it on .railway.app
+#     SESSION_COOKIE_SECURE = True
+#     SESSION_COOKIE_SAMESITE = 'None'
+#     SESSION_COOKIE_DOMAIN = None    # None lets Railway set it on .railway.app
+
+# ===========≠======
+# AFTER SAME DOMAIN
+# ===========≠======
 if DEBUG:
     CSRF_COOKIE_SECURE = False
     CSRF_COOKIE_SAMESITE = 'Lax'
@@ -267,11 +289,11 @@ if DEBUG:
     SESSION_COOKIE_DOMAIN = None    # no restriction locally
 else:
     CSRF_COOKIE_SECURE = True
-    CSRF_COOKIE_SAMESITE = 'None'
-    CSRF_COOKIE_DOMAIN = None       # None lets Railway set it on .railway.app
+    CSRF_COOKIE_SAMESITE = 'Lax'        # ← back to Lax, same domain now
+    CSRF_COOKIE_DOMAIN = '.easy-shop.biz'  # ← shared domain
     SESSION_COOKIE_SECURE = True
-    SESSION_COOKIE_SAMESITE = 'None'
-    SESSION_COOKIE_DOMAIN = None    # None lets Railway set it on .railway.app
+    SESSION_COOKIE_SAMESITE = 'Lax'     # ← back to Lax, same domain now
+    SESSION_COOKIE_DOMAIN = '.easy-shop.biz'  # ← shared domain
 
 
 # notes

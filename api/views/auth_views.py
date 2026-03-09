@@ -129,6 +129,15 @@ class LogoutView(APIView):
 #     """View to set CSRF cookie"""
 #     return JsonResponse({"success": "CSRF cookie set"})
 
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+# Django is generating a new masked token via get_token(request) instead of returning the existing one. Django has two forms of the CSRF token:
+
+# Raw token — 32 chars, stored in the cookie
+# Masked token — 64 chars, generated fresh each time for use in headers/forms
+
+# They are different but both valid — Django's CSRF verification unmasks the header token and compares it to the cookie token. They don't need to be identical.
 
 @ensure_csrf_cookie
 def get_csrf_token(request):
